@@ -11,8 +11,8 @@ const vitals = [
 
 const links = [
   { icon: GithubIcon, label: 'github', handle: 'Nicky9319', href: 'https://github.com/Nicky9319' },
-  { icon: LinkedinIcon, label: 'linkedin', handle: 'nicky9319', href: 'https://linkedin.com/in/nicky9319' },
-  { icon: Mail, label: 'email', handle: 'nicky9319@gmail.com', href: 'mailto:nicky9319@gmail.com' },
+  { icon: LinkedinIcon, label: 'linkedin', handle: 'paarth-saxena-632547274', href: 'https://www.linkedin.com/in/paarth-saxena-632547274/' },
+  { icon: Mail, label: 'email', handle: 'paarthsaxena2005@gmail.com', href: 'mailto:paarthsaxena2005@gmail.com' },
 ]
 
 export function AboutSection() {
@@ -33,7 +33,7 @@ export function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              I'm <span className="italic">Nicky</span>.
+              I'm <span className="italic">Paarth</span>.
               <br />
               I build agents that <span className="text-[var(--primary)]">orchestrate</span> agents.
             </motion.h2>

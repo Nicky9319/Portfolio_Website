@@ -67,7 +67,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
-              Nicky<span className="text-[var(--primary)]">.</span>
+              Paarth<span className="text-[var(--primary)]">.</span>
               <br />
               <span className="italic font-light" style={{ fontVariationSettings: "'opsz' 144, 'SOFT' 100" }}>
                 building systems

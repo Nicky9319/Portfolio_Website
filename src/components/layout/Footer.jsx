@@ -29,20 +29,20 @@ export function Footer() {
                 <span className="link-underline">github / Nicky9319</span>
               </a>
               <a
-                href="https://linkedin.com/in/nicky9319"
+                href="https://www.linkedin.com/in/paarth-saxena-632547274/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
               >
                 <LinkedinIcon size={16} />
-                <span className="link-underline">linkedin / nicky9319</span>
+                <span className="link-underline">linkedin / paarth-saxena-632547274</span>
               </a>
               <a
-                href="mailto:nicky9319@gmail.com"
+                href="mailto:paarthsaxena2005@gmail.com"
                 className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span className="link-underline">nicky9319@gmail.com</span>
+                <span className="link-underline">paarthsaxena2005@gmail.com</span>
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@ export function Footer() {
         {/* Bottom hairline */}
         <div className="mt-10 pt-6 border-t border-[var(--border)] flex flex-col md:flex-row items-start md:items-center justify-between gap-2">
           <p className="label text-[var(--dim)]">
-            © Nicky / 9319 — all work referenced is open source
+            © Paarth / 9319 — all work referenced is open source
           </p>
           <p className="label text-[var(--dim)]">
             <span className="text-[var(--primary)]">●</span> online / always shipping

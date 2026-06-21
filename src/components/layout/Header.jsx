@@ -15,7 +15,7 @@ export function Header() {
         <div className="flex items-center justify-between h-14">
           {/* Brand — monogram with live indicator */}
           <a href="#top" className="flex items-center gap-3 group">
-            <span className="font-display text-2xl tracking-tight">N.</span>
+            <span className="font-display text-2xl tracking-tight">P.</span>
             <span className="hidden md:flex items-center gap-2 label text-[var(--muted)]">
               <span className="relative inline-flex w-1.5 h-1.5">
                 <span className="absolute inset-0 rounded-full bg-[var(--primary)] pulse-dot" />
