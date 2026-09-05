@@ -820,6 +820,7 @@ export const experience = [
     company: 'Times Internet',
     location: 'New Delhi, India',
     period: 'Jun 2026 – Present',
+    description: 'Building and deploying production AI systems at scale, working across the full stack of conversational AI — from LLM pipelines to distributed backend services serving hundreds of thousands of users.',
     highlights: [
       'Architected and deployed a Conversational AI Agent serving 360K+ users with 30,000 monthly active paying users',
       'Developed an LLM-as-evaluator pipeline capable of processing and analyzing 30M+ user conversations',
@@ -827,11 +828,12 @@ export const experience = [
     ]
   },
   {
-    role: 'Founder & Lead Systems Architect',
+    role: 'Founder & CTO',
     company: 'Renderperk',
     link: 'renderperk.studio',
     location: 'New Delhi, India',
     period: 'Oct 2025 – Jun 2026',
+    description: 'Building distributed GPU rendering infrastructure and developer tooling — architecting systems that cut render costs by 75%, managing globally distributed workloads, and shipping 290+ APIs across 11 microservices.',
     highlights: [
       'Architected and scaled a distributed GPU render farm, reaching post-revenue in 4 months and cutting rendering costs by 75%',
       'Developed 290+ APIs and 20+ data flows running asynchronously across 11 microservices and 3 production VMs',
@@ -846,6 +848,7 @@ export const experience = [
     link: 'neocfo.io',
     location: 'New Delhi, India',
     period: 'May 2025 – June 2025',
+    description: 'Developing AI-powered automation tools and interactive dashboards for financial analysis — integrating LangChain agents, browser automation, and real-time data visualization to accelerate business workflows.',
     highlights: [
       'Built and deployed an AI-powered LinkedIn agent using Python, Playwright and n8n, reducing lead generation effort by 80%',
       'Implemented a LangChain-powered AI agent for automated Excel parsing and financial forecasting analysis',
