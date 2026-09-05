@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { ChevronDown } from 'lucide-react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { ExternalLink, ChevronDown } from 'lucide-react'
 import { experience } from '../../data/projects'
 
 import timesLogo from '../../assets/times_internet_logo.png'
@@ -14,11 +14,6 @@ const logoMap = {
 }
 
 export function ExperienceSection() {
-  const [expanded, setExpanded] = useState({})
-
-  const toggle = (key) =>
-    setExpanded((prev) => ({ ...prev, [key]: !prev[key] }))
-
   return (
     <section id="experience" className="relative">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28">
@@ -33,14 +28,15 @@ export function ExperienceSection() {
         {/* Experience list */}
         <div className="space-y-0">
           {experience.map((job, index) => {
-            const key = `${job.company}-${job.period}`
-            const isExpanded = expanded[key]
             const logo = logoMap[job.company]
             const isRenderperk = job.company === 'Renderperk'
+            const href = isRenderperk
+              ? 'https://renderperk.studio/?utm_source=paarth.site&utm_campaign=paarth&utm_medium=paarth-personal-website'
+              : job.link ? `https://${job.link}` : null
 
             return (
               <motion.article
-                key={key}
+                key={`${job.company}-${job.period}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
@@ -48,7 +44,7 @@ export function ExperienceSection() {
                 className="py-8 border-t border-[var(--border)] first:border-t-0"
               >
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
-                  {/* Left: logo + title row */}
+                  {/* Left: logo + content */}
                   <div className="md:col-span-8 flex items-start gap-4">
                     {logo && (
                       <div className="w-16 h-16 rounded-lg overflow-hidden bg-white shrink-0 mt-0.5">
@@ -61,30 +57,30 @@ export function ExperienceSection() {
                     )}
 
                     <div className="flex-1">
-                      {/* Title: designation + company with comma */}
-                      <h3 className="font-display text-base md:text-lg text-[var(--paper)] leading-tight mb-1">
-                        {job.role}{job.company ? `, ${job.company}` : ''}
-                      </h3>
+                      {/* Title row: designation + company + live link pill */}
+                      <div className="flex flex-wrap items-center gap-3 mb-2">
+                        <h3 className="font-display text-base md:text-lg text-[var(--paper)] leading-tight">
+                          {job.role}, {job.company}
+                        </h3>
+                        {href && (
+                          <a
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90 transition-opacity no-underline"
+                          >
+                            <span>Live</span>
+                            <ExternalLink size={10} />
+                          </a>
+                        )}
+                      </div>
 
-                      {/* Location + link */}
+                      {/* Location + period row */}
                       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3">
                         {job.location && (
                           <p className="body text-[var(--muted)]">{job.location}</p>
                         )}
-                        {job.link && (
-                          <a
-                            href={
-                              isRenderperk
-                                ? 'https://renderperk.studio/?utm_source=paarth.site&utm_campaign=paarth&utm_medium=paarth-personal-website'
-                                : `https://${job.link}`
-                            }
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="body text-[var(--muted)] hover:text-[var(--foreground)] transition-colors link-underline"
-                          >
-                            {isRenderperk ? 'renderperk.studio' : job.link}
-                          </a>
-                        )}
+                        <p className="font-mono text-xs text-[var(--muted)] tabular">{job.period}</p>
                       </div>
 
                       {/* Description — always visible, black text */}
@@ -93,44 +89,12 @@ export function ExperienceSection() {
                       </p>
 
                       {/* Show more button */}
-                      <button
-                        onClick={() => toggle(key)}
-                        className="flex items-center gap-1.5 body text-[var(--muted)] hover:text-[var(--foreground)] transition-colors mt-4 no-underline"
-                      >
-                        <ChevronDown
-                          size={15}
-                          className={`transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
-                        />
-                        <span className="text-sm font-medium">
-                          {isExpanded ? 'Show less' : 'Show more'}
-                        </span>
-                      </button>
-
-                      {/* Expanded highlights */}
-                      {isExpanded && job.highlights && (
-                        <motion.ul
-                          initial={{ opacity: 0, height: 0 }}
-                          animate={{ opacity: 1, height: 'auto' }}
-                          exit={{ opacity: 0, height: 0 }}
-                          transition={{ duration: 0.3 }}
-                          className="space-y-2 mt-5"
-                        >
-                          {job.highlights.map((highlight, i) => (
-                            <li
-                              key={i}
-                              className="flex items-start gap-3 body text-[var(--foreground)]"
-                            >
-                              <span className="w-1 h-1 rounded-full bg-[var(--muted)] mt-2.5 shrink-0" />
-                              <span>{highlight}</span>
-                            </li>
-                          ))}
-                        </motion.ul>
-                      )}
+                      <ShowMoreHighlight jobKey={`${job.company}-${job.period}`} highlights={job.highlights} />
                     </div>
                   </div>
 
-                  {/* Right: period */}
-                  <div className="md:col-span-4 flex md:justify-end">
+                  {/* Right: period (hidden on mobile, shown on md+) */}
+                  <div className="md:col-span-4 hidden md:flex md:justify-end">
                     <p className="font-mono text-sm text-[var(--muted)] tabular whitespace-nowrap">
                       {job.period}
                     </p>
@@ -142,5 +106,48 @@ export function ExperienceSection() {
         </div>
       </div>
     </section>
+  )
+}
+
+function ShowMoreHighlight({ jobKey, highlights }) {
+  const [expanded, setExpanded] = useState(false)
+
+  return (
+    <div>
+      <button
+        onClick={() => setExpanded((p) => !p)}
+        className="flex items-center gap-1.5 body text-[var(--muted)] hover:text-[var(--foreground)] transition-colors mt-4 no-underline"
+      >
+        <ChevronDown
+          size={15}
+          className={`transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+        />
+        <span className="text-sm font-medium">
+          {expanded ? 'Show less' : 'Show more'}
+        </span>
+      </button>
+
+      <AnimatePresence>
+        {expanded && (
+          <motion.ul
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.25 }}
+            className="space-y-2 mt-4 overflow-hidden"
+          >
+            {highlights && highlights.map((highlight, i) => (
+              <li
+                key={i}
+                className="flex items-start gap-3 body text-[var(--foreground)]"
+              >
+                <span className="w-1 h-1 rounded-full bg-[var(--muted)] mt-2.5 shrink-0" />
+                <span>{highlight}</span>
+              </li>
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
+    </div>
   )
 }
