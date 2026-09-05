@@ -4,13 +4,10 @@ import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { store } from './store'
 import { Header } from './components/layout/Header'
-import { Footer } from './components/layout/Footer'
 import { HeroSection } from './components/sections/HeroSection'
-import { TimelineSection } from './components/sections/TimelineSection'
 import { ProjectShowcase } from './components/sections/ProjectShowcase'
 import { ConceptIdeas } from './components/sections/ConceptIdeas'
 import { ExperienceSection } from './components/sections/ExperienceSection'
-import { AboutSection } from './components/sections/AboutSection'
 import { projects } from './data/projects'
 
 const queryClient = new QueryClient()
@@ -31,10 +28,7 @@ function ThemedApp() {
         <ProjectShowcase projects={projects} />
         <ExperienceSection />
         <ConceptIdeas />
-        <TimelineSection />
-        <AboutSection />
       </main>
-      <Footer />
     </div>
   )
 }

@@ -88,6 +88,14 @@
     color: var(--background);
   }
 
+  a {
+    text-decoration: underline;
+  }
+
+  a.no-underline {
+    text-decoration: none;
+  }
+
   /* Custom scrollbar */
   ::-webkit-scrollbar {
     width: 8px;
@@ -345,6 +353,7 @@
     border: 1px solid var(--primary);
     border-radius: 9999px;
     transition: transform 0.2s ease, background 0.2s ease;
+    text-decoration: none;
   }
 
   .btn-primary:hover {
@@ -364,6 +373,7 @@
     border: 1px solid var(--border-2);
     border-radius: 9999px;
     transition: background 0.2s ease, border-color 0.2s ease;
+    text-decoration: none;
   }
 
   .btn-ghost:hover {

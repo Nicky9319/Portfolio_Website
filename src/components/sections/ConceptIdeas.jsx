@@ -29,13 +29,13 @@ export function ConceptIdeas() {
   const isExternal = (href) => href.startsWith('http')
 
   return (
-    <section id="concepts" className="relative border-b border-[var(--border)]">
+    <section id="concepts" className="relative">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28">
         {/* Section header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="eyebrow text-[var(--muted)]">/ concepts</span>
+              <span className="eyebrow text-[var(--muted)]">Concepts</span>
             </div>
             <h2 className="display-2 text-[var(--paper)] max-w-2xl">
               Sketches, <span className="italic">prototypes,</span> and what-ifs.
@@ -51,16 +51,13 @@ export function ConceptIdeas() {
         {/* Concepts list */}
         <div className="space-y-0">
           {concepts.map((concept, index) => (
-            <motion.a
+            <motion.div
               key={concept.id}
-              href={concept.href}
-              target={isExternal(concept.href) ? '_blank' : undefined}
-              rel={isExternal(concept.href) ? 'noopener noreferrer' : undefined}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
-              className="group flex flex-col md:flex-row md:items-start justify-between gap-6 py-8 border-t border-[var(--border)] first:border-t-0"
+              className="flex flex-col md:flex-row md:items-start justify-between gap-6 py-8 border-t border-[var(--border)] first:border-t-0"
             >
               <div className="md:w-2/3">
                 <div className="flex items-center gap-3 mb-3">
@@ -76,12 +73,17 @@ export function ConceptIdeas() {
 
               <div className="flex items-center gap-4 md:flex-col md:items-end md:text-right">
                 <span className="pill">{concept.status}</span>
-                <span className="label text-[var(--muted)] group-hover:text-[var(--foreground)] transition-colors inline-flex items-center gap-2">
+                <a
+                  href={concept.href}
+                  target={isExternal(concept.href) ? '_blank' : undefined}
+                  rel={isExternal(concept.href) ? 'noopener noreferrer' : undefined}
+                  className="label text-[var(--muted)] hover:text-[var(--foreground)] transition-colors inline-flex items-center gap-2"
+                >
                   <span>{isExternal(concept.href) ? 'open link' : 'view concept'}</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
-                </span>
+                </a>
               </div>
-            </motion.a>
+            </motion.div>
           ))}
         </div>
       </div>

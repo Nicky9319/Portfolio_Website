@@ -125,7 +125,7 @@ const milestones = [
 
 export function TimelineSection() {
   return (
-    <section id="timeline" className="relative border-b border-[var(--border)]">
+    <section id="timeline" className="relative">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28">
         {/* Section header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-10 md:mb-14">

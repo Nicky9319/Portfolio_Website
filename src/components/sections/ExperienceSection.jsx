@@ -3,13 +3,13 @@ import { experience } from '../../data/projects'
 
 export function ExperienceSection() {
   return (
-    <section id="experience" className="relative border-b border-[var(--border)]">
+    <section id="experience" className="relative">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28">
         {/* Section header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="eyebrow text-[var(--muted)]">/ experience</span>
+              <span className="eyebrow text-[var(--muted)]">Experience</span>
             </div>
             <h2 className="display-2 text-[var(--paper)] max-w-2xl">
               Where I've <span className="italic">worked</span> and what I shipped.

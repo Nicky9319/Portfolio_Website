@@ -1,6 +1,5 @@
 import { Mail } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '../ui/BrandIcons'
-import { lastUpdated } from '../../data/projects'
 
 export function Footer() {
   return (
@@ -23,40 +22,32 @@ export function Footer() {
                 href="https://github.com/Nicky9319"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
               >
                 <GithubIcon size={16} />
-                <span className="link-underline">github / Nicky9319</span>
+                <span>github / Nicky9319</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/paarth-saxena-632547274/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
               >
                 <LinkedinIcon size={16} />
-                <span className="link-underline">linkedin / paarth-saxena-632547274</span>
+                <span>linkedin / paarth-saxena-632547274</span>
               </a>
               <a
                 href="mailto:paarthsaxena2005@gmail.com"
-                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+                className="group inline-flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
               >
                 <Mail className="w-4 h-4" />
-                <span className="link-underline">paarthsaxena2005@gmail.com</span>
+                <span>paarthsaxena2005@gmail.com</span>
               </a>
             </div>
           </div>
 
-          {/* Meta */}
-          <div className="md:col-span-3 md:text-right">
-            <p className="eyebrow text-[var(--muted)] mb-3">build</p>
-            <p className="small text-[var(--muted)] font-mono">
-              v.0.2.0 / {lastUpdated}
-            </p>
-            <p className="small text-[var(--dim)] font-mono mt-1">
-              react · vite · tailwind
-            </p>
-          </div>
+          {/* Empty column to balance layout */}
+          <div className="md:col-span-3" />
         </div>
 
         {/* Bottom hairline */}

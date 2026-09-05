@@ -20,7 +20,7 @@ export function AboutSection() {
           {/* Left — large display + statement */}
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-8">
-              <span className="eyebrow text-[var(--muted)]">/ about</span>
+              <span className="eyebrow text-[var(--muted)]">About</span>
             </div>
 
             <motion.h2
@@ -72,7 +72,7 @@ export function AboutSection() {
                   >
                     <Icon className="w-4 h-4 shrink-0" />
                     <span className="font-medium text-[var(--foreground)]">{link.label}</span>
-                    <span className="link-underline truncate">{link.handle}</span>
+                    <span className="truncate">{link.handle}</span>
                     <ArrowUpRight className="w-3.5 h-3.5 ml-auto opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                   </a>
                 )

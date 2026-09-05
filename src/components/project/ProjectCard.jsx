@@ -171,7 +171,7 @@ export function ProjectCard({ project, index, total }) {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 label text-[var(--muted)] hover:text-[var(--foreground)] transition-colors link-underline"
+                    className="inline-flex items-center gap-2 label text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
                   >
                     <span>view source</span>
                     <ExternalLink className="w-3 h-3" />
