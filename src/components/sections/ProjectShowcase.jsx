@@ -3,6 +3,7 @@ import { ProjectCard } from '../project/ProjectCard'
 
 export function ProjectShowcase({ projects }) {
   const liveProjects = projects.filter(p => p.category === 'live-demos')
+  const liveTotal = String(liveProjects.length).padStart(3, '0')
 
   return (
     <section id="projects" className="relative">
@@ -29,7 +30,7 @@ export function ProjectShowcase({ projects }) {
                   key={project.id}
                   project={project}
                   serialNum={serialNum}
-                  total={String(projects.length).padStart(3, '0')}
+                  total={liveTotal}
                   serialTop={project.id !== 'avatar'}
                 />
               )

@@ -13,12 +13,12 @@ export function ProjectCard({ project, serialNum, total, serialTop = true }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.5 }}
-      className="group py-6 border-t border-[var(--border)] first:border-t-0"
+      className="group py-6 border-t border-[var(--border)] first:border-t-0 md:border-t-0 md:first:border-t-0"
     >
       {/* Top meta — shown when serialTop is true */}
       {serialTop && (
-        <div className="flex items-center justify-between mb-4">
-          <span className="font-mono text-xs text-[var(--dim)] tabular">
+        <div className="flex items-center justify-between mb-4 md:hidden">
+          <span className="font-mono text-xs text-[var(--muted)] tabular">
             № {serialNum}/{total}
           </span>
         </div>
@@ -45,8 +45,8 @@ export function ProjectCard({ project, serialNum, total, serialTop = true }) {
 
       {/* Serial line — shown when serialTop is false (e.g. Avatar) */}
       {!serialTop && (
-        <div className="flex items-center justify-between mb-4">
-          <span className="font-mono text-xs text-[var(--dim)] tabular">
+        <div className="flex items-center justify-between mb-4 md:hidden">
+          <span className="font-mono text-xs text-[var(--muted)] tabular">
             № {serialNum}/{total}
           </span>
         </div>
@@ -117,7 +117,7 @@ export function ProjectCard({ project, serialNum, total, serialTop = true }) {
               {project.architecture?.diagram && (
                 <div>
                   <div className="flex items-baseline gap-3 mb-3">
-                    <span className="label text-[var(--primary)]">fig. {serial}</span>
+                    <span className="label text-[var(--primary)]">fig. {serialNum}</span>
                     <span className="label text-[var(--muted)]">architecture</span>
                   </div>
                   <pre className="ascii-diagram text-[var(--muted)]">
@@ -139,7 +139,7 @@ export function ProjectCard({ project, serialNum, total, serialTop = true }) {
                         key={i}
                         className="flex items-start gap-3 body text-[var(--foreground)]"
                       >
-                        <span className="font-mono text-xs text-[var(--dim)] tabular pt-0.5 shrink-0 w-6">
+                        <span className="font-mono text-xs text-[var(--muted)] tabular pt-0.5 shrink-0 w-6">
                           {String(i + 1).padStart(2, '0')}
                         </span>
                         <span className="text-[var(--muted)]">{feature}</span>
