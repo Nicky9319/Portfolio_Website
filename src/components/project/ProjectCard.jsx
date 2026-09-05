@@ -3,7 +3,7 @@ import { ChevronDown, ExternalLink, Radio } from 'lucide-react'
 import { GitHubWidget } from '../ui/GitHubWidget'
 import { useState } from 'react'
 
-export function ProjectCard({ project, index, total }) {
+export function ProjectCard({ project, index, total, serialTop = true }) {
   const [isExpanded, setIsExpanded] = useState(false)
   const serial = String(index + 1).padStart(3, '0')
 
@@ -16,12 +16,14 @@ export function ProjectCard({ project, index, total }) {
       transition={{ duration: 0.5, delay: (index % 6) * 0.05 }}
       className="group py-6 border-t border-[var(--border)] first:border-t-0"
     >
-      {/* Top meta */}
-      <div className="flex items-center justify-between mb-4">
-        <span className="font-mono text-xs text-[var(--dim)] tabular">
-          № {serial}/{String(total).padStart(3, '0')}
-        </span>
-      </div>
+      {/* Top meta — shown when serialTop is true */}
+      {serialTop && (
+        <div className="flex items-center justify-between mb-4">
+          <span className="font-mono text-xs text-[var(--dim)] tabular">
+            № {serial}/{String(total).padStart(3, '0')}
+          </span>
+        </div>
+      )}
 
       {/* Live demo + Title */}
       <div className="flex items-center justify-between gap-4 mb-3">
@@ -41,6 +43,15 @@ export function ProjectCard({ project, index, total }) {
           </a>
         )}
       </div>
+
+      {/* Serial line — shown when serialTop is false (e.g. Avatar) */}
+      {!serialTop && (
+        <div className="flex items-center justify-between mb-4">
+          <span className="font-mono text-xs text-[var(--dim)] tabular">
+            № {serial}/{String(total).padStart(3, '0')}
+          </span>
+        </div>
+      )}
 
       {/* Description */}
       <p className="body text-[var(--muted)] mb-5 leading-relaxed">

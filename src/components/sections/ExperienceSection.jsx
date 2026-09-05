@@ -77,19 +77,6 @@ export function ExperienceSection() {
                         )}
                       </div>
 
-                      {/* Location + period row */}
-                      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3">
-                        {job.location && (
-                          <p className="body text-[var(--muted)]">{job.location}</p>
-                        )}
-                        <p className="font-mono text-xs text-[var(--muted)] tabular">{job.period}</p>
-                      </div>
-
-                      {/* Description — always visible, black text */}
-                      <p className="body text-[var(--foreground)] max-w-2xl leading-relaxed">
-                        {job.description}
-                      </p>
-
                       {/* Show more button */}
                       <ShowMoreHighlight jobKey={`${job.company}-${job.period}`} highlights={job.highlights} />
                     </div>
@@ -144,7 +131,7 @@ function ShowMoreHighlight({ jobKey, highlights }) {
                 className="flex items-start gap-3 body text-[var(--foreground)]"
               >
                 <span className="w-1 h-1 rounded-full bg-[var(--muted)] mt-2.5 shrink-0" />
-                <span>{highlight}</span>
+                <span className="whitespace-nowrap">{highlight}</span>
               </li>
             ))}
           </motion.ul>

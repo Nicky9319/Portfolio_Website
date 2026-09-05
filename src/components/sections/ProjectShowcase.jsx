@@ -27,6 +27,7 @@ export function ProjectShowcase({ projects }) {
                 project={project}
                 index={index}
                 total={liveProjects.length}
+                serialTop={project.id !== 'avatar'}
               />
             ))}
           </div>
