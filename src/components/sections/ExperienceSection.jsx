@@ -57,7 +57,7 @@ export function ExperienceSection() {
                     )}
 
                     <div className="flex-1">
-                      {/* Title row: designation + company + live link pill */}
+                      {/* Title row: designation + company + live link */}
                       <div className="flex flex-wrap items-center gap-3 mb-2">
                         <h3 className="font-display text-base md:text-lg text-[var(--paper)] leading-tight">
                           {job.role}, {job.company}
@@ -67,10 +67,12 @@ export function ExperienceSection() {
                             href={href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-[var(--primary)] text-[var(--primary-foreground)] hover:opacity-90 transition-opacity no-underline"
+                            className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-700 no-underline"
                           >
-                            <span>Live</span>
-                            <ExternalLink size={10} />
+                            <ExternalLink size={12} />
+                            <span className="underline underline-offset-2">
+                              {isRenderperk ? 'renderperk.studio' : href.replace('https://', '')}
+                            </span>
                           </a>
                         )}
                       </div>
