@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { store } from './store'
 import { Header } from './components/layout/Header'
+import { Footer } from './components/layout/Footer'
 import { HeroSection } from './components/sections/HeroSection'
 import { ProjectShowcase } from './components/sections/ProjectShowcase'
 import { ConceptIdeas } from './components/sections/ConceptIdeas'
@@ -29,6 +30,7 @@ function ThemedApp() {
         <ExperienceSection />
         <ConceptIdeas />
       </main>
+      <Footer />
     </div>
   )
 }
