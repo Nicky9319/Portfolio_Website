@@ -1,13 +1,10 @@
 import { motion } from 'framer-motion'
 import { Mail, ArrowUpRight } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '../ui/BrandIcons'
+import { projects, skills, lastUpdated } from '../../data/projects'
 
-const vitals = [
-  { label: 'projects', value: '53+', sub: 'shipped since 2024' },
-  { label: 'months', value: '18', sub: 'in the build' },
-  { label: 'stacks', value: '14+', sub: 'in active rotation' },
-  { label: 'tiers', value: '4', sub: 'of project complexity' },
-]
+const projectCount = projects.length
+const stackCount = skills.reduce((sum, group) => sum + group.items.length, 0)
 
 const links = [
   { icon: GithubIcon, label: 'github', handle: 'Nicky9319', href: 'https://github.com/Nicky9319' },
@@ -23,7 +20,7 @@ export function AboutSection() {
           {/* Left — large display + statement */}
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-8">
-              <span className="section-num text-[var(--primary)]">§05</span>
+              <span className="section-num text-[var(--primary)]">§07</span>
               <span className="eyebrow text-[var(--muted)]">/ about</span>
             </div>
 
@@ -58,7 +55,7 @@ export function AboutSection() {
 
             {/* Contact links */}
             <motion.div
-              className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-3"
+              className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4"
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -72,34 +69,27 @@ export function AboutSection() {
                     href={link.href}
                     target={link.href.startsWith('http') ? '_blank' : undefined}
                     rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    className="group flex items-center justify-between gap-3 p-4 border border-[var(--border)] hover:border-[var(--primary)] bg-[var(--surface)] transition-colors"
+                    className="group flex items-center gap-3 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
                   >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <Icon className="w-4 h-4 text-[var(--muted)] group-hover:text-[var(--primary)] shrink-0 transition-colors" />
-                      <div className="min-w-0">
-                        <p className="label text-[var(--dim)]">{link.label}</p>
-                        <p className="font-mono text-xs text-[var(--foreground)] truncate">
-                          {link.handle}
-                        </p>
-                      </div>
-                    </div>
-                    <ArrowUpRight className="w-4 h-4 text-[var(--muted)] group-hover:text-[var(--primary)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0" />
+                    <Icon className="w-4 h-4 shrink-0" />
+                    <span className="font-medium text-[var(--foreground)]">{link.label}</span>
+                    <span className="link-underline truncate">{link.handle}</span>
+                    <ArrowUpRight className="w-3.5 h-3.5 ml-auto opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                   </a>
                 )
               })}
             </motion.div>
           </div>
 
-          {/* Right — vitals panel */}
+          {/* Right — vitals */}
           <motion.aside
             className="lg:col-span-5"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <div className="border border-[var(--border-2)] bg-[var(--surface)]">
-              {/* Header */}
-              <div className="px-5 py-3 border-b border-[var(--border)] flex items-center justify-between">
+            <div className="border-t border-[var(--border)] pt-6">
+              <div className="flex items-center justify-between mb-8">
                 <span className="eyebrow text-[var(--muted)]">vitals</span>
                 <span className="label text-[var(--dim)] flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)] pulse-dot" />
@@ -107,32 +97,39 @@ export function AboutSection() {
                 </span>
               </div>
 
-              {/* Stats grid */}
-              <div className="grid grid-cols-2 divide-x divide-y divide-[var(--border)]">
-                {vitals.map((stat) => (
-                  <div key={stat.label} className="p-5">
-                    <p className="label text-[var(--muted)]">{stat.label}</p>
-                    <p className="font-display text-4xl md:text-5xl text-[var(--paper)] mt-2 leading-none tabular">
-                      {stat.value}
-                    </p>
-                    <p className="small text-[var(--dim)] mt-2">{stat.sub}</p>
-                  </div>
-                ))}
+              <div className="grid grid-cols-2 gap-x-8 gap-y-8 mb-8">
+                <div>
+                  <p className="label text-[var(--muted)]">projects</p>
+                  <p className="font-display text-4xl md:text-5xl text-[var(--paper)] mt-2 leading-none tabular">
+                    {projectCount}+
+                  </p>
+                </div>
+                <div>
+                  <p className="label text-[var(--muted)]">months</p>
+                  <p className="font-display text-4xl md:text-5xl text-[var(--paper)] mt-2 leading-none tabular">
+                    18
+                  </p>
+                </div>
+                <div>
+                  <p className="label text-[var(--muted)]">stacks</p>
+                  <p className="font-display text-4xl md:text-5xl text-[var(--paper)] mt-2 leading-none tabular">
+                    {stackCount}+
+                  </p>
+                </div>
+                <div>
+                  <p className="label text-[var(--muted)]">updated</p>
+                  <p className="font-display text-4xl md:text-5xl text-[var(--paper)] mt-2 leading-none tabular">
+                    {lastUpdated}
+                  </p>
+                </div>
               </div>
 
-              {/* Footer hairline */}
-              <div className="px-5 py-3 border-t border-[var(--border)] flex items-center justify-between">
-                <span className="label text-[var(--dim)]">last updated</span>
-                <span className="font-mono text-xs text-[var(--foreground)]">May 2026</span>
+              <div className="pt-6 border-t border-[var(--border)]">
+                <p className="label text-[var(--primary)] mb-3">current status</p>
+                <p className="font-display text-xl md:text-2xl text-[var(--paper)] leading-snug">
+                  Open to interesting work in AI infrastructure, multi-agent systems, or platform engineering.
+                </p>
               </div>
-            </div>
-
-            {/* Status note */}
-            <div className="mt-4 p-5 border-l-2 border-[var(--primary)] bg-[var(--surface)]">
-              <p className="label text-[var(--primary)] mb-2">current status</p>
-              <p className="font-display text-xl md:text-2xl text-[var(--paper)] leading-snug">
-                Open to interesting work in AI infrastructure, multi-agent systems, or platform engineering.
-              </p>
             </div>
           </motion.aside>
         </div>

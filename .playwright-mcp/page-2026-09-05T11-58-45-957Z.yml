@@ -1,0 +1,635 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - link "P. online / building" [ref=f1e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f1e8]: P.
+        - generic [ref=f1e9]: online / building
+      - navigation [ref=f1e14]:
+        - link "03 Projects" [ref=f1e15] [cursor=pointer]:
+          - /url: "#projects"
+          - generic [ref=f1e16]: "03"
+          - generic [ref=f1e17]: Projects
+        - link "02 Timeline" [ref=f1e18] [cursor=pointer]:
+          - /url: "#timeline"
+          - generic [ref=f1e19]: "02"
+          - generic [ref=f1e20]: Timeline
+        - link "04 Concepts" [ref=f1e21] [cursor=pointer]:
+          - /url: "#concepts"
+          - generic [ref=f1e22]: "04"
+          - generic [ref=f1e23]: Concepts
+        - link "05 Skills" [ref=f1e24] [cursor=pointer]:
+          - /url: "#skills"
+          - generic [ref=f1e25]: "05"
+          - generic [ref=f1e26]: Skills
+        - link "06 Experience" [ref=f1e27] [cursor=pointer]:
+          - /url: "#experience"
+          - generic [ref=f1e28]: "06"
+          - generic [ref=f1e29]: Experience
+        - link "07 About" [ref=f1e30] [cursor=pointer]:
+          - /url: "#about"
+          - generic [ref=f1e31]: "07"
+          - generic [ref=f1e32]: About
+      - generic [ref=f1e33]:
+        - link "GitHub" [ref=f1e34] [cursor=pointer]:
+          - /url: https://github.com/Nicky9319
+        - button "Switch to dark mode" [ref=f1e38]
+  - main [ref=f1e48]:
+    - generic [ref=f1e50]:
+      - generic [ref=f1e51]:
+        - generic [ref=f1e52]:
+          - generic [ref=f1e53]: §01
+          - generic [ref=f1e54]: / identity
+        - generic [ref=f1e55]: portfolio · v0.2
+      - generic [ref=f1e58]:
+        - generic [ref=f1e59]:
+          - paragraph [ref=f1e60]: hello, I'm —
+          - heading "Paarth. building systems that think." [level=1] [ref=f1e61]: Paarth.building systemsthat think.
+          - paragraph [ref=f1e62]: From first scripts to multi-agent AI orchestrations — building production AI infrastructure, microservices, and platforms.
+          - generic [ref=f1e63]:
+            - link "View projects" [ref=f1e64] [cursor=pointer]:
+              - /url: "#projects"
+            - link "github / Nicky9319" [ref=f1e68] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+        - complementary [ref=f1e73]:
+          - img "Paarth Saxena — portrait placeholder" [ref=f1e75]
+          - generic [ref=f1e76]:
+            - generic [ref=f1e77]:
+              - generic [ref=f1e78]: vitals
+              - generic [ref=f1e79]: read-only
+            - generic [ref=f1e80]:
+              - generic [ref=f1e81]:
+                - term [ref=f1e82]: role
+                - definition [ref=f1e83]: AI Engineer
+              - generic [ref=f1e84]:
+                - term [ref=f1e85]: focus
+                - definition [ref=f1e86]: Multi-agent systems
+              - generic [ref=f1e87]:
+                - term [ref=f1e88]: based in
+                - definition [ref=f1e89]: India · Remote
+              - generic [ref=f1e90]:
+                - term [ref=f1e91]: shipping since
+                - definition [ref=f1e92]: Oct 2024
+              - generic [ref=f1e93]:
+                - term [ref=f1e94]: status
+                - definition [ref=f1e95]:
+                  - generic [ref=f1e97]: building · open to work
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - generic [ref=f1e102]: Python
+          - generic [ref=f1e103]: ·
+        - generic [ref=f1e104]:
+          - generic [ref=f1e105]: FastAPI
+          - generic [ref=f1e106]: ·
+        - generic [ref=f1e107]:
+          - generic [ref=f1e108]: LangGraph
+          - generic [ref=f1e109]: ·
+        - generic [ref=f1e110]:
+          - generic [ref=f1e111]: LangChain
+          - generic [ref=f1e112]: ·
+        - generic [ref=f1e113]:
+          - generic [ref=f1e114]: Electron
+          - generic [ref=f1e115]: ·
+        - generic [ref=f1e116]:
+          - generic [ref=f1e117]: React
+          - generic [ref=f1e118]: ·
+        - generic [ref=f1e119]:
+          - generic [ref=f1e120]: React Native
+          - generic [ref=f1e121]: ·
+        - generic [ref=f1e122]:
+          - generic [ref=f1e123]: MongoDB
+          - generic [ref=f1e124]: ·
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126]: PostgreSQL
+          - generic [ref=f1e127]: ·
+        - generic [ref=f1e128]:
+          - generic [ref=f1e129]: Redis
+          - generic [ref=f1e130]: ·
+        - generic [ref=f1e131]:
+          - generic [ref=f1e132]: Docker
+          - generic [ref=f1e133]: ·
+        - generic [ref=f1e134]:
+          - generic [ref=f1e135]: MQTT
+          - generic [ref=f1e136]: ·
+        - generic [ref=f1e137]:
+          - generic [ref=f1e138]: TypeScript
+          - generic [ref=f1e139]: ·
+        - generic [ref=f1e140]:
+          - generic [ref=f1e141]: Tailwind
+          - generic [ref=f1e142]: ·
+        - generic [ref=f1e143]:
+          - generic [ref=f1e144]: Socket.IO
+          - generic [ref=f1e145]: ·
+        - generic [ref=f1e146]:
+          - generic [ref=f1e147]: LiteLLM
+          - generic [ref=f1e148]: ·
+        - generic [ref=f1e149]:
+          - generic [ref=f1e150]: Playwright
+          - generic [ref=f1e151]: ·
+        - generic [ref=f1e152]:
+          - generic [ref=f1e153]: ChromaDB
+          - generic [ref=f1e154]: ·
+        - generic [ref=f1e155]:
+          - generic [ref=f1e156]: Python
+          - generic [ref=f1e157]: ·
+        - generic [ref=f1e158]:
+          - generic [ref=f1e159]: FastAPI
+          - generic [ref=f1e160]: ·
+        - generic [ref=f1e161]:
+          - generic [ref=f1e162]: LangGraph
+          - generic [ref=f1e163]: ·
+        - generic [ref=f1e164]:
+          - generic [ref=f1e165]: LangChain
+          - generic [ref=f1e166]: ·
+        - generic [ref=f1e167]:
+          - generic [ref=f1e168]: Electron
+          - generic [ref=f1e169]: ·
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]: React
+          - generic [ref=f1e172]: ·
+        - generic [ref=f1e173]:
+          - generic [ref=f1e174]: React Native
+          - generic [ref=f1e175]: ·
+        - generic [ref=f1e176]:
+          - generic [ref=f1e177]: MongoDB
+          - generic [ref=f1e178]: ·
+        - generic [ref=f1e179]:
+          - generic [ref=f1e180]: PostgreSQL
+          - generic [ref=f1e181]: ·
+        - generic [ref=f1e182]:
+          - generic [ref=f1e183]: Redis
+          - generic [ref=f1e184]: ·
+        - generic [ref=f1e185]:
+          - generic [ref=f1e186]: Docker
+          - generic [ref=f1e187]: ·
+        - generic [ref=f1e188]:
+          - generic [ref=f1e189]: MQTT
+          - generic [ref=f1e190]: ·
+        - generic [ref=f1e191]:
+          - generic [ref=f1e192]: TypeScript
+          - generic [ref=f1e193]: ·
+        - generic [ref=f1e194]:
+          - generic [ref=f1e195]: Tailwind
+          - generic [ref=f1e196]: ·
+        - generic [ref=f1e197]:
+          - generic [ref=f1e198]: Socket.IO
+          - generic [ref=f1e199]: ·
+        - generic [ref=f1e200]:
+          - generic [ref=f1e201]: LiteLLM
+          - generic [ref=f1e202]: ·
+        - generic [ref=f1e203]:
+          - generic [ref=f1e204]: Playwright
+          - generic [ref=f1e205]: ·
+        - generic [ref=f1e206]:
+          - generic [ref=f1e207]: ChromaDB
+          - generic [ref=f1e208]: ·
+      - generic [ref=f1e209]:
+        - generic [ref=f1e210]: scroll to begin ↓
+        - link "jump to projects" [ref=f1e211] [cursor=pointer]:
+          - /url: "#projects"
+    - generic [ref=f1e216]:
+      - generic [ref=f1e217]:
+        - generic [ref=f1e218]:
+          - generic [ref=f1e219]:
+            - generic [ref=f1e220]: §02
+            - generic [ref=f1e221]: / what did I do
+          - heading "A timeline of builds." [level=2] [ref=f1e222]
+        - paragraph [ref=f1e224]: What I built and what it did, from first scripts to production AI systems.
+      - generic [ref=f1e228]:
+        - generic [ref=f1e232]:
+          - generic [ref=f1e233]: Oct 2024
+          - heading "First automations" [level=3] [ref=f1e234]
+          - list [ref=f1e235]:
+            - listitem [ref=f1e236]:
+              - generic [ref=f1e238]: Built stock-trading scripts to learn data patterns.
+            - listitem [ref=f1e239]:
+              - generic [ref=f1e241]: Started turning ideas into working code.
+        - generic [ref=f1e245]:
+          - generic [ref=f1e246]: Feb 2025
+          - heading "Backend foundations" [level=3] [ref=f1e247]
+          - list [ref=f1e248]:
+            - listitem [ref=f1e249]:
+              - generic [ref=f1e251]: Built microservice boilerplate and server templates.
+            - listitem [ref=f1e252]:
+              - generic [ref=f1e254]: Learned to structure backend systems cleanly.
+        - generic [ref=f1e258]:
+          - generic [ref=f1e259]: Mar 2025
+          - heading "DevOps & deployment" [level=3] [ref=f1e260]
+          - list [ref=f1e261]:
+            - listitem [ref=f1e262]:
+              - generic [ref=f1e264]: Wrote Linux setup scripts and automation files.
+            - listitem [ref=f1e265]:
+              - generic [ref=f1e267]: Deployed a render farm main server.
+        - generic [ref=f1e271]:
+          - generic [ref=f1e272]: Apr 2025
+          - heading "Full-stack systems" [level=3] [ref=f1e273]
+          - list [ref=f1e274]:
+            - listitem [ref=f1e275]:
+              - generic [ref=f1e277]: Built backend and frontend for an event-sourcing project.
+            - listitem [ref=f1e278]:
+              - generic [ref=f1e280]: Created a real-time AI assistant backend.
+        - generic [ref=f1e284]:
+          - generic [ref=f1e285]: May 2025
+          - heading "Containers & desktop" [level=3] [ref=f1e286]
+          - list [ref=f1e287]:
+            - listitem [ref=f1e288]:
+              - generic [ref=f1e290]: Built a container GUI for managing Docker visually.
+            - listitem [ref=f1e291]:
+              - generic [ref=f1e293]: Shipped a cross-platform desktop app with Expo.
+        - generic [ref=f1e297]:
+          - generic [ref=f1e298]: Jun 2025
+          - heading "Microservices at scale" [level=3] [ref=f1e299]
+          - list [ref=f1e300]:
+            - listitem [ref=f1e301]:
+              - generic [ref=f1e303]: Built a ride-sharing backend with multiple services.
+            - listitem [ref=f1e304]:
+              - generic [ref=f1e306]: Handled auth, rides, users, and riders separately.
+        - generic [ref=f1e310]:
+          - generic [ref=f1e311]: Jul 2025
+          - heading "AI agents" [level=3] [ref=f1e312]
+          - list [ref=f1e313]:
+            - listitem [ref=f1e314]:
+              - generic [ref=f1e316]: Built a multi-agent system using LangGraph.
+            - listitem [ref=f1e317]:
+              - generic [ref=f1e319]: Coordinated WhatsApp, search, and Discord agents.
+        - generic [ref=f1e323]:
+          - generic [ref=f1e324]: Aug 2025
+          - heading "Mobile & AI/ML" [level=3] [ref=f1e325]
+          - list [ref=f1e326]:
+            - listitem [ref=f1e327]:
+              - generic [ref=f1e329]: Built a mobile app for AI assistant control.
+            - listitem [ref=f1e330]:
+              - generic [ref=f1e332]: Created structured notes and experiments for ML.
+        - generic [ref=f1e336]:
+          - generic [ref=f1e337]: Sep 2025
+          - heading "Auth & business tools" [level=3] [ref=f1e338]
+          - list [ref=f1e339]:
+            - listitem [ref=f1e340]:
+              - generic [ref=f1e342]: Built an authentication microservice with tokens.
+            - listitem [ref=f1e343]:
+              - generic [ref=f1e345]: Shipped a lead management mobile app and desktop CRM.
+        - generic [ref=f1e349]:
+          - generic [ref=f1e350]: Nov 2025
+          - heading "Business applications" [level=3] [ref=f1e351]
+          - list [ref=f1e352]:
+            - listitem [ref=f1e353]:
+              - generic [ref=f1e355]: Built a full CRM with multi-window desktop app.
+            - listitem [ref=f1e356]:
+              - generic [ref=f1e358]: Created a peer-to-peer GPU desktop platform.
+        - generic [ref=f1e362]:
+          - generic [ref=f1e363]: Dec 2025
+          - heading "AI frameworks" [level=3] [ref=f1e364]
+          - list [ref=f1e365]:
+            - listitem [ref=f1e366]:
+              - generic [ref=f1e368]: Built a multi-model LLM gateway with LiteLLM.
+            - listitem [ref=f1e369]:
+              - generic [ref=f1e371]: Created reusable MCP servers for tool calling.
+        - generic [ref=f1e375]:
+          - generic [ref=f1e376]: Jan 2026
+          - heading "Observability" [level=3] [ref=f1e377]
+          - list [ref=f1e378]:
+            - listitem [ref=f1e379]:
+              - generic [ref=f1e381]: Built a monitoring pipeline with Prometheus and Grafana.
+            - listitem [ref=f1e382]:
+              - generic [ref=f1e384]: Added logging with Loki and Fluentd.
+        - generic [ref=f1e388]:
+          - generic [ref=f1e389]: May 2026
+          - heading "Workflow automation" [level=3] [ref=f1e390]
+          - list [ref=f1e391]:
+            - listitem [ref=f1e392]:
+              - generic [ref=f1e394]: Built n8n pipelines for Reddit content automation.
+            - listitem [ref=f1e395]:
+              - generic [ref=f1e397]: Used Airtable as a queue and state machine.
+        - generic [ref=f1e401]:
+          - generic [ref=f1e402]: Jun 2026
+          - heading "Conversational AI at scale" [level=3] [ref=f1e403]
+          - list [ref=f1e404]:
+            - listitem [ref=f1e405]:
+              - generic [ref=f1e407]: Built a conversational AI agent serving 360K+ users.
+            - listitem [ref=f1e408]:
+              - generic [ref=f1e410]: Ran LLM-as-judge evaluation on 30M+ conversations.
+        - generic [ref=f1e414]:
+          - generic [ref=f1e415]: Aug 2026
+          - heading "Live demos" [level=3] [ref=f1e416]
+          - list [ref=f1e417]:
+            - listitem [ref=f1e418]:
+              - generic [ref=f1e420]: Built a real-time voice agent you can talk to.
+            - listitem [ref=f1e421]:
+              - generic [ref=f1e423]: Created an interactive AI avatar and text clustering tool.
+    - generic [ref=f1e425]:
+      - generic [ref=f1e426]:
+        - generic [ref=f1e427]:
+          - generic [ref=f1e428]:
+            - generic [ref=f1e429]: §03
+            - generic [ref=f1e430]: / projects
+          - heading "Projects." [level=2] [ref=f1e431]
+        - paragraph [ref=f1e433]: Live demos you can try right now — voice, avatars, and natural language.
+      - generic [ref=f1e434]:
+        - generic [ref=f1e435]:
+          - generic [ref=f1e436]: "01"
+          - generic [ref=f1e442]:
+            - heading "Live Demos" [level=3] [ref=f1e443]
+            - paragraph [ref=f1e444]: Shipped experiments you can try right now — voice, avatars, and NLP.
+        - generic [ref=f1e445]:
+          - article [ref=f1e446]:
+            - generic [ref=f1e447]:
+              - generic [ref=f1e448]: № 001/003
+              - generic [ref=f1e449]: T1 / systems
+            - generic [ref=f1e450]:
+              - heading "Voice Calling" [level=3] [ref=f1e452]
+              - paragraph [ref=f1e453]: Multi-service orchestration
+              - paragraph [ref=f1e454]: Real-time voice agent demo with live conversational AI. Talk to an agent that listens, thinks, and responds in real time.
+              - generic [ref=f1e456]:
+                - link "Live demo" [ref=f1e457] [cursor=pointer]:
+                  - /url: https://realtime-voice-agent-demo-frontend.vercel.app/
+                - link "Nicky9319/realtime-voice-agent-project" [ref=f1e469] [cursor=pointer]:
+                  - /url: https://github.com/Nicky9319/realtime-voice-agent-project
+              - generic [ref=f1e474]:
+                - paragraph [ref=f1e475]: stack
+                - generic [ref=f1e476]:
+                  - generic [ref=f1e477]: WebRTC
+                  - generic [ref=f1e478]: Python
+                  - generic [ref=f1e479]: FastAPI
+                  - generic [ref=f1e480]: React
+                  - generic [ref=f1e481]: Socket.IO
+                  - generic [ref=f1e482]: LLM
+              - button "open spec" [ref=f1e483]
+          - article [ref=f1e489]:
+            - generic [ref=f1e490]:
+              - generic [ref=f1e491]: № 002/003
+              - generic [ref=f1e492]: T1 / systems
+            - generic [ref=f1e493]:
+              - heading "Avatar" [level=3] [ref=f1e495]
+              - paragraph [ref=f1e496]: Multi-service orchestration
+              - paragraph [ref=f1e497]: Interactive AI avatar system that generates expressive, real-time character responses for conversational experiences.
+              - link "Nicky9319/Avatar_Project" [ref=f1e500] [cursor=pointer]:
+                - /url: https://github.com/Nicky9319/Avatar_Project
+              - generic [ref=f1e505]:
+                - paragraph [ref=f1e506]: stack
+                - generic [ref=f1e507]:
+                  - generic [ref=f1e508]: Python
+                  - generic [ref=f1e509]: FastAPI
+                  - generic [ref=f1e510]: LLM
+                  - generic [ref=f1e511]: Three.js
+                  - generic [ref=f1e512]: React
+                  - generic [ref=f1e513]: Neon DB
+              - button "open spec" [ref=f1e514]
+          - article [ref=f1e520]:
+            - generic [ref=f1e521]:
+              - generic [ref=f1e522]: № 003/003
+              - generic [ref=f1e523]: T1 / systems
+            - generic [ref=f1e524]:
+              - heading "Natural Language Clustering" [level=3] [ref=f1e526]
+              - paragraph [ref=f1e527]: Multi-service orchestration
+              - paragraph [ref=f1e528]: Turns unstructured text into meaningful groups using vector embeddings and clustering. Useful for feedback analysis, support tickets, and discovery.
+              - link "Nicky9319/natural_language_clustering" [ref=f1e531] [cursor=pointer]:
+                - /url: https://github.com/Nicky9319/natural_language_clustering
+              - generic [ref=f1e536]:
+                - paragraph [ref=f1e537]: stack
+                - generic [ref=f1e538]:
+                  - generic [ref=f1e539]: Python
+                  - generic [ref=f1e540]: NLP
+                  - generic [ref=f1e541]: Vector Embeddings
+                  - generic [ref=f1e542]: Clustering
+                  - generic [ref=f1e543]: scikit-learn
+                  - generic [ref=f1e544]: OpenAI
+              - button "open spec" [ref=f1e545]
+    - generic [ref=f1e552]:
+      - generic [ref=f1e553]:
+        - generic [ref=f1e554]:
+          - generic [ref=f1e555]:
+            - generic [ref=f1e556]: §04
+            - generic [ref=f1e557]: / concept ideas
+          - heading "Sketches, prototypes, and what-ifs." [level=2] [ref=f1e558]
+        - paragraph [ref=f1e560]: Not every idea becomes a shipped product. These are landing pages, UI explorations, and experiments worth revisiting.
+      - generic [ref=f1e561]:
+        - link "prototype Agent Orchestrator Landing A single-page exploration of how supervisors delegate tasks to tool-calling agents. view concept" [ref=f1e562] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f1e563]:
+            - generic [ref=f1e564]: prototype
+            - heading "Agent Orchestrator Landing" [level=3] [ref=f1e569]
+            - paragraph [ref=f1e570]: A single-page exploration of how supervisors delegate tasks to tool-calling agents.
+          - generic [ref=f1e571]: view concept
+        - link "concept Render Farm Dashboard Visualising GPU queue health, node status, and cost-per-frame in real time. view concept" [ref=f1e576] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f1e577]:
+            - generic [ref=f1e578]: concept
+            - heading "Render Farm Dashboard" [level=3] [ref=f1e583]
+            - paragraph [ref=f1e584]: Visualising GPU queue health, node status, and cost-per-frame in real time.
+          - generic [ref=f1e585]: view concept
+        - 'link "prototype Voice UI Kit Reusable components for conversational interfaces: waveform, transcript, status. view concept" [ref=f1e590] [cursor=pointer]':
+          - /url: "#"
+          - generic [ref=f1e591]:
+            - generic [ref=f1e592]: prototype
+            - heading "Voice UI Kit" [level=3] [ref=f1e597]
+            - paragraph [ref=f1e598]: "Reusable components for conversational interfaces: waveform, transcript, status."
+          - generic [ref=f1e599]: view concept
+        - link "concept LLM Evaluation Workbench A lightweight UI for running LLM-as-a-judge experiments against conversation datasets. view concept" [ref=f1e604] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f1e605]:
+            - generic [ref=f1e606]: concept
+            - heading "LLM Evaluation Workbench" [level=3] [ref=f1e611]
+            - paragraph [ref=f1e612]: A lightweight UI for running LLM-as-a-judge experiments against conversation datasets.
+          - generic [ref=f1e613]: view concept
+    - generic [ref=f1e619]:
+      - generic [ref=f1e620]:
+        - generic [ref=f1e621]:
+          - generic [ref=f1e622]:
+            - generic [ref=f1e623]: §05
+            - generic [ref=f1e624]: / capabilities
+          - heading "Tools and technologies I work with." [level=2] [ref=f1e625]
+        - paragraph [ref=f1e627]: Grouped by domain and sourced from the resume. These are the stacks I have shipped production work on.
+      - generic [ref=f1e628]:
+        - generic [ref=f1e629]:
+          - paragraph [ref=f1e630]: Languages
+          - generic [ref=f1e631]:
+            - generic [ref=f1e632]: Python
+            - generic [ref=f1e633]: C / C++
+            - generic [ref=f1e634]: JavaScript (ES6+)
+            - generic [ref=f1e635]: SQL
+            - generic [ref=f1e636]: Bash
+        - generic [ref=f1e637]:
+          - paragraph [ref=f1e638]: AI / Machine Learning
+          - generic [ref=f1e639]:
+            - generic [ref=f1e640]: LLMs
+            - generic [ref=f1e641]: LangChain
+            - generic [ref=f1e642]: LangGraph
+            - generic [ref=f1e643]: ChromaDB
+            - generic [ref=f1e644]: Vector Embeddings
+            - generic [ref=f1e645]: Clustering
+            - generic [ref=f1e646]: Prompt Engineering
+        - generic [ref=f1e647]:
+          - paragraph [ref=f1e648]: Technologies
+          - generic [ref=f1e649]:
+            - generic [ref=f1e650]: FastAPI
+            - generic [ref=f1e651]: Node.js
+            - generic [ref=f1e652]: React
+            - generic [ref=f1e653]: Redux
+            - generic [ref=f1e654]: Electron
+            - generic [ref=f1e655]: React Native
+            - generic [ref=f1e656]: PostgreSQL
+            - generic [ref=f1e657]: MongoDB
+            - generic [ref=f1e658]: Redis
+            - generic [ref=f1e659]: RabbitMQ
+            - generic [ref=f1e660]: Nginx
+        - generic [ref=f1e661]:
+          - paragraph [ref=f1e662]: DevOps / Cloud
+          - generic [ref=f1e663]:
+            - generic [ref=f1e664]: Docker
+            - generic [ref=f1e665]: Linux
+            - generic [ref=f1e666]: Git
+            - generic [ref=f1e667]: GitHub Actions
+            - generic [ref=f1e668]: Azure
+            - generic [ref=f1e669]: DigitalOcean
+            - generic [ref=f1e670]: Cloudflare
+            - generic [ref=f1e671]: OpenTelemetry
+            - generic [ref=f1e672]: Grafana
+            - generic [ref=f1e673]: Fluentd
+    - generic [ref=f1e675]:
+      - generic [ref=f1e676]:
+        - generic [ref=f1e677]:
+          - generic [ref=f1e678]:
+            - generic [ref=f1e679]: §06
+            - generic [ref=f1e680]: / experience
+          - heading "Where I've worked and what I shipped." [level=2] [ref=f1e681]
+        - paragraph [ref=f1e683]: Roles and internships from the resume, with the outcomes I was directly responsible for.
+      - generic [ref=f1e684]:
+        - article [ref=f1e685]:
+          - generic [ref=f1e686]:
+            - generic [ref=f1e687]:
+              - heading "Times Internet" [level=3] [ref=f1e688]
+              - paragraph [ref=f1e689]: AI Engineer Intern
+              - generic [ref=f1e690]:
+                - paragraph [ref=f1e691]: Jun 2026 – Present
+                - paragraph [ref=f1e692]: New Delhi, India
+            - generic [ref=f1e693]:
+              - paragraph [ref=f1e694]: highlights
+              - list [ref=f1e695]:
+                - listitem [ref=f1e696]:
+                  - generic [ref=f1e698]: Architected and deployed a Conversational AI Agent serving 360K+ users with 30,000 monthly active paying users
+                - listitem [ref=f1e699]:
+                  - generic [ref=f1e701]: Developed an LLM-as-evaluator pipeline capable of processing and analyzing 30M+ user conversations
+                - listitem [ref=f1e702]:
+                  - generic [ref=f1e704]: Transformed 40,000+ unstructured product feedback entries into actionable insights using clustering and vector embeddings
+        - article [ref=f1e705]:
+          - generic [ref=f1e706]:
+            - generic [ref=f1e707]:
+              - heading "Renderperk" [level=3] [ref=f1e708]
+              - paragraph [ref=f1e709]: Founder & Lead Systems Architect
+              - generic [ref=f1e710]:
+                - paragraph [ref=f1e711]: Oct 2025 – Jun 2026
+                - paragraph [ref=f1e712]: New Delhi, India
+                - link "renderperk.studio" [ref=f1e713] [cursor=pointer]:
+                  - /url: https://renderperk.studio
+            - generic [ref=f1e714]:
+              - paragraph [ref=f1e715]: highlights
+              - list [ref=f1e716]:
+                - listitem [ref=f1e717]:
+                  - generic [ref=f1e719]: Architected and scaled a distributed GPU render farm, reaching post-revenue in 4 months and cutting rendering costs by 75%
+                - listitem [ref=f1e720]:
+                  - generic [ref=f1e722]: Developed 290+ APIs and 20+ data flows running asynchronously across 11 microservices and 3 production VMs
+                - listitem [ref=f1e723]:
+                  - generic [ref=f1e725]: Orchestrated 20+ parallel GPU workloads, managing 30GB+ data distributed globally with sub-5 minute synchronization
+                - listitem [ref=f1e726]:
+                  - generic [ref=f1e728]: Deployed OpenTelemetry for distributed tracing and integrated Fluentd + Grafana for centralized logging and monitoring
+                - listitem [ref=f1e729]:
+                  - generic [ref=f1e731]: Built CI/CD pipelines for autonomous server deployments and cross-platform desktop application release builds
+        - article [ref=f1e732]:
+          - generic [ref=f1e733]:
+            - generic [ref=f1e734]:
+              - heading "Nathdwara Advisors LLP" [level=3] [ref=f1e735]
+              - paragraph [ref=f1e736]: Software Developer Intern
+              - generic [ref=f1e737]:
+                - paragraph [ref=f1e738]: May 2025 – June 2025
+                - paragraph [ref=f1e739]: New Delhi, India
+                - link "neocfo.io" [ref=f1e740] [cursor=pointer]:
+                  - /url: https://neocfo.io
+            - generic [ref=f1e741]:
+              - paragraph [ref=f1e742]: highlights
+              - list [ref=f1e743]:
+                - listitem [ref=f1e744]:
+                  - generic [ref=f1e746]: Built and deployed an AI-powered LinkedIn agent using Python, Playwright and n8n, reducing lead generation effort by 80%
+                - listitem [ref=f1e747]:
+                  - generic [ref=f1e749]: Implemented a LangChain-powered AI agent for automated Excel parsing and financial forecasting analysis
+                - listitem [ref=f1e750]:
+                  - generic [ref=f1e752]: Developed interactive dashboards for metric analysis, optimized for sub-second load times through efficient caching strategies
+    - generic [ref=f1e754]:
+      - generic [ref=f1e755]:
+        - generic [ref=f1e756]:
+          - generic [ref=f1e757]:
+            - generic [ref=f1e758]: §07
+            - generic [ref=f1e759]: / about
+          - heading "I'm Paarth. I build agents that orchestrate agents." [level=2] [ref=f1e760]: I'm Paarth.I build agents that orchestrate agents.
+          - generic [ref=f1e761]:
+            - paragraph [ref=f1e762]: Eighteen months ago I was writing a stock-trading script. This month I'm shipping LangGraph supervisors that coordinate WhatsApp, YouTube, and custom agents in parallel — and the path between those two points is exactly what this site documents.
+            - paragraph [ref=f1e763]: "I care about the unsexy parts: observability, retry logic, schema validation, what happens at 3am when the queue stalls. The hard part of building an AI system isn't the model call — it's making twelve of them reliable at the same time, in production, with logs you can actually read."
+            - paragraph [ref=f1e764]: Open to interesting work — especially anything involving multi-agent systems, production AI infrastructure, or novel orchestration patterns.
+          - generic [ref=f1e765]:
+            - link [ref=f1e766] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+              - generic [ref=f1e771]:
+                - paragraph [ref=f1e772]: github
+                - paragraph [ref=f1e773]: Nicky9319
+            - link [ref=f1e777] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+              - generic [ref=f1e783]:
+                - paragraph [ref=f1e784]: linkedin
+                - paragraph [ref=f1e785]: paarth-saxena-632547274
+            - link [ref=f1e789] [cursor=pointer]:
+              - /url: mailto:paarthsaxena2005@gmail.com
+              - generic [ref=f1e794]:
+                - paragraph [ref=f1e795]: email
+                - paragraph [ref=f1e796]: paarthsaxena2005@gmail.com
+        - complementary [ref=f1e800]:
+          - generic [ref=f1e801]:
+            - generic [ref=f1e802]:
+              - generic [ref=f1e803]: vitals
+              - generic [ref=f1e804]: live
+            - generic [ref=f1e806]:
+              - generic [ref=f1e807]:
+                - paragraph [ref=f1e808]: projects
+                - paragraph [ref=f1e809]: 17+
+                - paragraph [ref=f1e810]: on this site
+              - generic [ref=f1e811]:
+                - paragraph [ref=f1e812]: months
+                - paragraph [ref=f1e813]: "18"
+                - paragraph [ref=f1e814]: in the build
+              - generic [ref=f1e815]:
+                - paragraph [ref=f1e816]: stacks
+                - paragraph [ref=f1e817]: 33+
+                - paragraph [ref=f1e818]: in active rotation
+              - generic [ref=f1e819]:
+                - paragraph [ref=f1e820]: tiers
+                - paragraph [ref=f1e821]: "4"
+                - paragraph [ref=f1e822]: of project complexity
+            - generic [ref=f1e823]:
+              - generic [ref=f1e824]: last updated
+              - generic [ref=f1e825]: Sep 2026
+          - generic [ref=f1e826]:
+            - paragraph [ref=f1e827]: current status
+            - paragraph [ref=f1e828]: Open to interesting work in AI infrastructure, multi-agent systems, or platform engineering.
+      - generic [ref=f1e829]:
+        - paragraph [ref=f1e830]: That's the log. →
+        - paragraph [ref=f1e831]: thanks for reading.
+  - contentinfo [ref=f1e832]:
+    - generic [ref=f1e833]:
+      - generic [ref=f1e834]:
+        - generic [ref=f1e835]:
+          - paragraph [ref=f1e836]: colophon
+          - paragraph [ref=f1e837]: Designed and built in the open, line by line.
+        - generic [ref=f1e838]:
+          - paragraph [ref=f1e839]: channels
+          - generic [ref=f1e840]:
+            - link "github / Nicky9319" [ref=f1e841] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+            - link "linkedin / paarth-saxena-632547274" [ref=f1e846] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+            - link "paarthsaxena2005@gmail.com" [ref=f1e852] [cursor=pointer]:
+              - /url: mailto:paarthsaxena2005@gmail.com
+        - generic [ref=f1e857]:
+          - paragraph [ref=f1e858]: build
+          - paragraph [ref=f1e859]: v.0.2.0 / Sep 2026
+          - paragraph [ref=f1e860]: react · vite · tailwind
+      - generic [ref=f1e861]:
+        - paragraph [ref=f1e862]: © Paarth / 9319 — all work referenced is open source
+        - paragraph [ref=f1e863]: ● online / always shipping

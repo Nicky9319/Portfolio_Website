@@ -3,6 +3,127 @@
 // but NOT displayed on the frontend
 
 export const projects = [
+  // Featured live-link demos
+  {
+    id: 'voice-calling',
+    name: 'Voice Calling',
+    tier: 1,
+    complexity: 8,
+    impressiveness: 9,
+    description: 'Real-time voice agent demo with live conversational AI. Talk to an agent that listens, thinks, and responds in real time.',
+    techStack: ['WebRTC', 'Python', 'FastAPI', 'React', 'Socket.IO', 'LLM'],
+    category: 'live-demos',
+    timeline: {
+      date: '2026-08',
+      previousGap: '3 months',
+      skillJump: 'Real-time AI'
+    },
+    architecture: {
+      type: 'flow',
+      diagram: `
+User Microphone
+      ↓
+WebRTC Audio Stream
+      ↓
+FastAPI Backend
+      ↓
+LLM + TTS Pipeline
+      ↓
+Real-time Response`
+    },
+    features: [
+      'Live voice streaming via WebRTC',
+      'Real-time transcription and LLM reasoning',
+      'Text-to-speech response pipeline',
+      'React frontend with connection status'
+    ],
+    challenges: [],
+    demoVideo: null,
+    liveUrl: 'https://realtime-voice-agent-demo-frontend.vercel.app/',
+    githubUrl: 'https://github.com/Nicky9319/realtime-voice-agent-project',
+    spotlight: true
+  },
+  {
+    id: 'avatar',
+    name: 'Avatar',
+    tier: 1,
+    complexity: 8,
+    impressiveness: 9,
+    description: 'Interactive AI avatar system that generates expressive, real-time character responses for conversational experiences.',
+    techStack: ['Python', 'FastAPI', 'LLM', 'Three.js', 'React', 'Neon DB'],
+    category: 'live-demos',
+    timeline: {
+      date: '2026-07',
+      previousGap: '1 month',
+      skillJump: 'Avatar AI'
+    },
+    architecture: {
+      type: 'component',
+      diagram: `
+┌─────────────────────────────────────┐
+│           React Frontend            │
+│      Three.js Avatar Renderer       │
+└─────────────┬───────────────────────┘
+              │
+┌─────────────▼───────────────────────┐
+│        FastAPI Backend              │
+│   LLM reasoning + response sync     │
+└─────────────┬───────────────────────┘
+              │
+┌─────────────▼───────────────────────┐
+│          Neon DB (SQL)              │
+└─────────────────────────────────────┘`
+    },
+    features: [
+      'Real-time 3D avatar rendering',
+      'LLM-driven conversational responses',
+      'SQL persistence with Neon DB',
+      'Expressive animation pipeline'
+    ],
+    challenges: [],
+    demoVideo: null,
+    githubUrl: 'https://github.com/Nicky9319/Avatar_Project',
+    spotlight: true
+  },
+  {
+    id: 'natural-language-clustering',
+    name: 'Natural Language Clustering',
+    tier: 1,
+    complexity: 7,
+    impressiveness: 8,
+    description: 'Turns unstructured text into meaningful groups using vector embeddings and clustering. Useful for feedback analysis, support tickets, and discovery.',
+    techStack: ['Python', 'NLP', 'Vector Embeddings', 'Clustering', 'scikit-learn', 'OpenAI'],
+    category: 'live-demos',
+    timeline: {
+      date: '2026-06',
+      previousGap: '1 month',
+      skillJump: 'NLP / Clustering'
+    },
+    architecture: {
+      type: 'flow',
+      diagram: `
+Raw Text Input
+      ↓
+Embedding Model
+      ↓
+Dimensionality Reduction
+      ↓
+Clustering Algorithm
+      ↓
+Labeled Topic Groups`
+    },
+    features: [
+      'Text embedding with modern language models',
+      'Unsupervised clustering of similar statements',
+      'Topic label generation',
+      'Exportable cluster summaries'
+    ],
+    challenges: [],
+    demoVideo: null,
+    githubUrl: 'https://github.com/Nicky9319/natural_language_clustering',
+    spotlight: true
+  },
+
   // Tier 1 - Complex Systems
   {
     id: 'donna-agent',
@@ -624,6 +745,12 @@ States: Pending Fetch → Ready for Processing`
 // Categories with display info
 export const categories = [
   {
+    id: 'live-demos',
+    name: 'Live Demos',
+    icon: 'sparkles',
+    description: 'Shipped experiments you can try right now — voice, avatars, and NLP.'
+  },
+  {
     id: 'ai-automation',
     name: 'AI & Automation',
     icon: 'brain',
@@ -666,22 +793,65 @@ export const timelineData = [
   { date: '2026-05', projects: ['reddit-blogs-n8n-automation'], skillFocus: 'Workflow automation' }
 ]
 
-// Skills for matrix
+// Skills grouped by domain (parsed from resume)
 export const skills = [
-  { name: 'Python', level: 95 },
-  { name: 'FastAPI', level: 85 },
-  { name: 'MongoDB', level: 80 },
-  { name: 'Docker', level: 90 },
-  { name: 'LangGraph', level: 75 },
-  { name: 'LangChain', level: 70 },
-  { name: 'React', level: 80 },
-  { name: 'Electron', level: 75 },
-  { name: 'React Native', level: 70 },
-  { name: 'PostgreSQL', level: 70 },
-  { name: 'Redis', level: 75 },
-  { name: 'MQTT', level: 70 },
-  { name: 'Tailwind', level: 80 },
-  { name: 'TypeScript', level: 65 }
+  {
+    category: 'Languages',
+    items: ['Python', 'C / C++', 'JavaScript (ES6+)', 'SQL', 'Bash']
+  },
+  {
+    category: 'AI / Machine Learning',
+    items: ['LLMs', 'LangChain', 'LangGraph', 'ChromaDB', 'Vector Embeddings', 'Clustering', 'Prompt Engineering']
+  },
+  {
+    category: 'Technologies',
+    items: ['FastAPI', 'Node.js', 'React', 'Redux', 'Electron', 'React Native', 'PostgreSQL', 'MongoDB', 'Redis', 'RabbitMQ', 'Nginx']
+  },
+  {
+    category: 'DevOps / Cloud',
+    items: ['Docker', 'Linux', 'Git', 'GitHub Actions', 'Azure', 'DigitalOcean', 'Cloudflare', 'OpenTelemetry', 'Grafana', 'Fluentd']
+  }
 ]
 
-export const lastUpdated = 'May 2026'
+// Experience parsed from resume
+export const experience = [
+  {
+    role: 'AI Engineer Intern',
+    company: 'Times Internet',
+    location: 'New Delhi, India',
+    period: 'Jun 2026 – Present',
+    highlights: [
+      'Architected and deployed a Conversational AI Agent serving 360K+ users with 30,000 monthly active paying users',
+      'Developed an LLM-as-evaluator pipeline capable of processing and analyzing 30M+ user conversations',
+      'Transformed 40,000+ unstructured product feedback entries into actionable insights using clustering and vector embeddings'
+    ]
+  },
+  {
+    role: 'Founder & Lead Systems Architect',
+    company: 'Renderperk',
+    link: 'renderperk.studio',
+    location: 'New Delhi, India',
+    period: 'Oct 2025 – Jun 2026',
+    highlights: [
+      'Architected and scaled a distributed GPU render farm, reaching post-revenue in 4 months and cutting rendering costs by 75%',
+      'Developed 290+ APIs and 20+ data flows running asynchronously across 11 microservices and 3 production VMs',
+      'Orchestrated 20+ parallel GPU workloads, managing 30GB+ data distributed globally with sub-5 minute synchronization',
+      'Deployed OpenTelemetry for distributed tracing and integrated Fluentd + Grafana for centralized logging and monitoring',
+      'Built CI/CD pipelines for autonomous server deployments and cross-platform desktop application release builds'
+    ]
+  },
+  {
+    role: 'Software Developer Intern',
+    company: 'Nathdwara Advisors LLP',
+    link: 'neocfo.io',
+    location: 'New Delhi, India',
+    period: 'May 2025 – June 2025',
+    highlights: [
+      'Built and deployed an AI-powered LinkedIn agent using Python, Playwright and n8n, reducing lead generation effort by 80%',
+      'Implemented a LangChain-powered AI agent for automated Excel parsing and financial forecasting analysis',
+      'Developed interactive dashboards for metric analysis, optimized for sub-second load times through efficient caching strategies'
+    ]
+  }
+]
+
+export const lastUpdated = 'Sep 2026'

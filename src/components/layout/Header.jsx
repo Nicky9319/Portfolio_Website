@@ -2,10 +2,12 @@ import { ThemeToggle } from '../ui/ThemeToggle'
 import { GithubIcon } from '../ui/BrandIcons'
 
 const navItems = [
-  { label: 'Work', href: '#projects', num: '02' },
-  { label: 'Timeline', href: '#timeline', num: '03' },
-  { label: 'Skills', href: '#skills', num: '04' },
-  { label: 'About', href: '#about', num: '05' },
+  { label: 'Projects', href: '#projects', num: '03' },
+  { label: 'Timeline', href: '#timeline', num: '02' },
+  { label: 'Concepts', href: '#concepts', num: '04' },
+  { label: 'Skills', href: '#skills', num: '05' },
+  { label: 'Experience', href: '#experience', num: '06' },
+  { label: 'About', href: '#about', num: '07' },
 ]
 
 export function Header() {

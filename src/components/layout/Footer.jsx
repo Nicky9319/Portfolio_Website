@@ -51,7 +51,7 @@ export function Footer() {
           <div className="md:col-span-3 md:text-right">
             <p className="eyebrow text-[var(--muted)] mb-3">build</p>
             <p className="small text-[var(--muted)] font-mono">
-              v.0.1.0 / {lastUpdated}
+              v.0.2.0 / {lastUpdated}
             </p>
             <p className="small text-[var(--dim)] font-mono mt-1">
               react · vite · tailwind

@@ -1,0 +1,546 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - link "P. online / building" [ref=f2e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f2e8]: P.
+        - generic [ref=f2e9]: online / building
+      - navigation [ref=f2e14]:
+        - link "03 Projects" [ref=f2e15] [cursor=pointer]:
+          - /url: "#projects"
+          - generic [ref=f2e16]: "03"
+          - generic [ref=f2e17]: Projects
+        - link "02 Timeline" [ref=f2e18] [cursor=pointer]:
+          - /url: "#timeline"
+          - generic [ref=f2e19]: "02"
+          - generic [ref=f2e20]: Timeline
+        - link "04 Concepts" [ref=f2e21] [cursor=pointer]:
+          - /url: "#concepts"
+          - generic [ref=f2e22]: "04"
+          - generic [ref=f2e23]: Concepts
+        - link "05 Skills" [ref=f2e24] [cursor=pointer]:
+          - /url: "#skills"
+          - generic [ref=f2e25]: "05"
+          - generic [ref=f2e26]: Skills
+        - link "06 Experience" [ref=f2e27] [cursor=pointer]:
+          - /url: "#experience"
+          - generic [ref=f2e28]: "06"
+          - generic [ref=f2e29]: Experience
+        - link "07 About" [ref=f2e30] [cursor=pointer]:
+          - /url: "#about"
+          - generic [ref=f2e31]: "07"
+          - generic [ref=f2e32]: About
+      - generic [ref=f2e33]:
+        - link "GitHub" [ref=f2e34] [cursor=pointer]:
+          - /url: https://github.com/Nicky9319
+        - button "Switch to dark mode" [ref=f2e38]
+  - main [ref=f2e48]:
+    - generic [ref=f2e50]:
+      - generic [ref=f2e51]:
+        - generic [ref=f2e52]:
+          - generic [ref=f2e53]:
+            - generic [ref=f2e54]: §07
+            - generic [ref=f2e55]: / about
+          - heading "I'm Paarth. I build agents that orchestrate agents." [level=2] [ref=f2e56]: I'm Paarth.I build agents that orchestrate agents.
+          - generic [ref=f2e57]:
+            - paragraph [ref=f2e58]: Eighteen months ago I was writing a stock-trading script. This month I'm shipping LangGraph supervisors that coordinate WhatsApp, YouTube, and custom agents in parallel — and the path between those two points is exactly what this site documents.
+            - paragraph [ref=f2e59]: "I care about the unsexy parts: observability, retry logic, schema validation, what happens at 3am when the queue stalls. The hard part of building an AI system isn't the model call — it's making twelve of them reliable at the same time, in production, with logs you can actually read."
+            - paragraph [ref=f2e60]: Open to interesting work — especially anything involving multi-agent systems, production AI infrastructure, or novel orchestration patterns.
+          - generic [ref=f2e61]:
+            - link "github Nicky9319" [ref=f2e62] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+              - generic [ref=f2e66]: github
+              - generic [ref=f2e67]: Nicky9319
+            - link "linkedin paarth-saxena-632547274" [ref=f2e71] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+              - generic [ref=f2e76]: linkedin
+              - generic [ref=f2e77]: paarth-saxena-632547274
+            - link "email paarthsaxena2005@gmail.com" [ref=f2e81] [cursor=pointer]:
+              - /url: mailto:paarthsaxena2005@gmail.com
+              - generic [ref=f2e85]: email
+              - generic [ref=f2e86]: paarthsaxena2005@gmail.com
+        - complementary [ref=f2e90]:
+          - generic [ref=f2e91]:
+            - generic [ref=f2e92]:
+              - generic [ref=f2e93]: vitals
+              - generic [ref=f2e94]: live
+            - generic [ref=f2e96]:
+              - generic [ref=f2e97]:
+                - paragraph [ref=f2e98]: projects
+                - paragraph [ref=f2e99]: 17+
+              - generic [ref=f2e100]:
+                - paragraph [ref=f2e101]: months
+                - paragraph [ref=f2e102]: "18"
+              - generic [ref=f2e103]:
+                - paragraph [ref=f2e104]: stacks
+                - paragraph [ref=f2e105]: 33+
+              - generic [ref=f2e106]:
+                - paragraph [ref=f2e107]: updated
+                - paragraph [ref=f2e108]: Sep 2026
+            - generic [ref=f2e109]:
+              - paragraph [ref=f2e110]: current status
+              - paragraph [ref=f2e111]: Open to interesting work in AI infrastructure, multi-agent systems, or platform engineering.
+      - generic [ref=f2e112]:
+        - paragraph [ref=f2e113]: That's the log. →
+        - paragraph [ref=f2e114]: thanks for reading.
+    - generic [ref=f2e116]:
+      - generic [ref=f2e117]:
+        - generic [ref=f2e118]:
+          - generic [ref=f2e119]: §01
+          - generic [ref=f2e120]: / identity
+        - generic [ref=f2e121]: AI engineer · builder
+      - generic [ref=f2e124]:
+        - generic [ref=f2e125]:
+          - paragraph [ref=f2e126]: hello, I'm —
+          - heading "Paarth. building systems that think." [level=1] [ref=f2e127]: Paarth.building systemsthat think.
+          - paragraph [ref=f2e128]: From first scripts to multi-agent AI orchestrations — building production AI infrastructure, microservices, and platforms.
+          - generic [ref=f2e129]:
+            - link "View projects" [ref=f2e130] [cursor=pointer]:
+              - /url: "#projects"
+            - link "github / Nicky9319" [ref=f2e134] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+        - complementary [ref=f2e139]:
+          - img "Paarth Saxena — portrait placeholder" [ref=f2e141]
+          - generic [ref=f2e142]:
+            - generic [ref=f2e143]:
+              - generic [ref=f2e144]: vitals
+              - generic [ref=f2e145]: read-only
+            - generic [ref=f2e146]:
+              - generic [ref=f2e147]:
+                - term [ref=f2e148]: role
+                - definition [ref=f2e149]: AI Engineer
+              - generic [ref=f2e150]:
+                - term [ref=f2e151]: focus
+                - definition [ref=f2e152]: Multi-agent systems
+              - generic [ref=f2e153]:
+                - term [ref=f2e154]: based in
+                - definition [ref=f2e155]: India · Remote
+              - generic [ref=f2e156]:
+                - term [ref=f2e157]: shipping since
+                - definition [ref=f2e158]: Oct 2024
+              - generic [ref=f2e159]:
+                - term [ref=f2e160]: status
+                - definition [ref=f2e161]:
+                  - generic [ref=f2e163]: building · open to work
+      - generic [ref=f2e166]:
+        - generic [ref=f2e167]:
+          - generic [ref=f2e168]: Python
+          - generic [ref=f2e169]: ·
+        - generic [ref=f2e170]:
+          - generic [ref=f2e171]: FastAPI
+          - generic [ref=f2e172]: ·
+        - generic [ref=f2e173]:
+          - generic [ref=f2e174]: LangGraph
+          - generic [ref=f2e175]: ·
+        - generic [ref=f2e176]:
+          - generic [ref=f2e177]: LangChain
+          - generic [ref=f2e178]: ·
+        - generic [ref=f2e179]:
+          - generic [ref=f2e180]: Electron
+          - generic [ref=f2e181]: ·
+        - generic [ref=f2e182]:
+          - generic [ref=f2e183]: React
+          - generic [ref=f2e184]: ·
+        - generic [ref=f2e185]:
+          - generic [ref=f2e186]: React Native
+          - generic [ref=f2e187]: ·
+        - generic [ref=f2e188]:
+          - generic [ref=f2e189]: MongoDB
+          - generic [ref=f2e190]: ·
+        - generic [ref=f2e191]:
+          - generic [ref=f2e192]: PostgreSQL
+          - generic [ref=f2e193]: ·
+        - generic [ref=f2e194]:
+          - generic [ref=f2e195]: Redis
+          - generic [ref=f2e196]: ·
+        - generic [ref=f2e197]:
+          - generic [ref=f2e198]: Docker
+          - generic [ref=f2e199]: ·
+        - generic [ref=f2e200]:
+          - generic [ref=f2e201]: MQTT
+          - generic [ref=f2e202]: ·
+        - generic [ref=f2e203]:
+          - generic [ref=f2e204]: TypeScript
+          - generic [ref=f2e205]: ·
+        - generic [ref=f2e206]:
+          - generic [ref=f2e207]: Tailwind
+          - generic [ref=f2e208]: ·
+        - generic [ref=f2e209]:
+          - generic [ref=f2e210]: Socket.IO
+          - generic [ref=f2e211]: ·
+        - generic [ref=f2e212]:
+          - generic [ref=f2e213]: LiteLLM
+          - generic [ref=f2e214]: ·
+        - generic [ref=f2e215]:
+          - generic [ref=f2e216]: Playwright
+          - generic [ref=f2e217]: ·
+        - generic [ref=f2e218]:
+          - generic [ref=f2e219]: ChromaDB
+          - generic [ref=f2e220]: ·
+        - generic [ref=f2e221]:
+          - generic [ref=f2e222]: Python
+          - generic [ref=f2e223]: ·
+        - generic [ref=f2e224]:
+          - generic [ref=f2e225]: FastAPI
+          - generic [ref=f2e226]: ·
+        - generic [ref=f2e227]:
+          - generic [ref=f2e228]: LangGraph
+          - generic [ref=f2e229]: ·
+        - generic [ref=f2e230]:
+          - generic [ref=f2e231]: LangChain
+          - generic [ref=f2e232]: ·
+        - generic [ref=f2e233]:
+          - generic [ref=f2e234]: Electron
+          - generic [ref=f2e235]: ·
+        - generic [ref=f2e236]:
+          - generic [ref=f2e237]: React
+          - generic [ref=f2e238]: ·
+        - generic [ref=f2e239]:
+          - generic [ref=f2e240]: React Native
+          - generic [ref=f2e241]: ·
+        - generic [ref=f2e242]:
+          - generic [ref=f2e243]: MongoDB
+          - generic [ref=f2e244]: ·
+        - generic [ref=f2e245]:
+          - generic [ref=f2e246]: PostgreSQL
+          - generic [ref=f2e247]: ·
+        - generic [ref=f2e248]:
+          - generic [ref=f2e249]: Redis
+          - generic [ref=f2e250]: ·
+        - generic [ref=f2e251]:
+          - generic [ref=f2e252]: Docker
+          - generic [ref=f2e253]: ·
+        - generic [ref=f2e254]:
+          - generic [ref=f2e255]: MQTT
+          - generic [ref=f2e256]: ·
+        - generic [ref=f2e257]:
+          - generic [ref=f2e258]: TypeScript
+          - generic [ref=f2e259]: ·
+        - generic [ref=f2e260]:
+          - generic [ref=f2e261]: Tailwind
+          - generic [ref=f2e262]: ·
+        - generic [ref=f2e263]:
+          - generic [ref=f2e264]: Socket.IO
+          - generic [ref=f2e265]: ·
+        - generic [ref=f2e266]:
+          - generic [ref=f2e267]: LiteLLM
+          - generic [ref=f2e268]: ·
+        - generic [ref=f2e269]:
+          - generic [ref=f2e270]: Playwright
+          - generic [ref=f2e271]: ·
+        - generic [ref=f2e272]:
+          - generic [ref=f2e273]: ChromaDB
+          - generic [ref=f2e274]: ·
+      - generic [ref=f2e275]:
+        - generic [ref=f2e276]: scroll to begin ↓
+        - link "jump to projects" [ref=f2e277] [cursor=pointer]:
+          - /url: "#projects"
+    - generic [ref=f2e282]:
+      - generic [ref=f2e283]:
+        - generic [ref=f2e284]:
+          - generic [ref=f2e285]:
+            - generic [ref=f2e286]: §02
+            - generic [ref=f2e287]: / what did I do
+          - heading "A timeline of builds." [level=2] [ref=f2e288]
+        - paragraph [ref=f2e290]: What I built and what it did, from first scripts to production AI systems.
+      - generic [ref=f2e294]:
+        - generic [ref=f2e298]:
+          - generic [ref=f2e299]: Oct 2024
+          - heading "First automations" [level=3] [ref=f2e300]
+          - list [ref=f2e301]:
+            - listitem [ref=f2e302]:
+              - generic [ref=f2e304]: Built stock-trading scripts to learn data patterns.
+            - listitem [ref=f2e305]:
+              - generic [ref=f2e307]: Started turning ideas into working code.
+        - generic [ref=f2e311]:
+          - generic [ref=f2e312]: Feb 2025
+          - heading "Backend foundations" [level=3] [ref=f2e313]
+          - list [ref=f2e314]:
+            - listitem [ref=f2e315]:
+              - generic [ref=f2e317]: Built microservice boilerplate and server templates.
+            - listitem [ref=f2e318]:
+              - generic [ref=f2e320]: Learned to structure backend systems cleanly.
+        - generic [ref=f2e324]:
+          - generic [ref=f2e325]: Mar 2025
+          - heading "DevOps & deployment" [level=3] [ref=f2e326]
+          - list [ref=f2e327]:
+            - listitem [ref=f2e328]:
+              - generic [ref=f2e330]: Wrote Linux setup scripts and automation files.
+            - listitem [ref=f2e331]:
+              - generic [ref=f2e333]: Deployed a render farm main server.
+        - generic [ref=f2e337]:
+          - generic [ref=f2e338]: Apr 2025
+          - heading "Full-stack systems" [level=3] [ref=f2e339]
+          - list [ref=f2e340]:
+            - listitem [ref=f2e341]:
+              - generic [ref=f2e343]: Built backend and frontend for an event-sourcing project.
+            - listitem [ref=f2e344]:
+              - generic [ref=f2e346]: Created a real-time AI assistant backend.
+        - generic [ref=f2e350]:
+          - generic [ref=f2e351]: May 2025
+          - heading "Containers & desktop" [level=3] [ref=f2e352]
+          - list [ref=f2e353]:
+            - listitem [ref=f2e354]:
+              - generic [ref=f2e356]: Built a container GUI for managing Docker visually.
+            - listitem [ref=f2e357]:
+              - generic [ref=f2e359]: Shipped a cross-platform desktop app with Expo.
+        - generic [ref=f2e363]:
+          - generic [ref=f2e364]: Jun 2025
+          - heading "Microservices at scale" [level=3] [ref=f2e365]
+          - list [ref=f2e366]:
+            - listitem [ref=f2e367]:
+              - generic [ref=f2e369]: Built a ride-sharing backend with multiple services.
+            - listitem [ref=f2e370]:
+              - generic [ref=f2e372]: Handled auth, rides, users, and riders separately.
+        - generic [ref=f2e376]:
+          - generic [ref=f2e377]: Jul 2025
+          - heading "AI agents" [level=3] [ref=f2e378]
+          - list [ref=f2e379]:
+            - listitem [ref=f2e380]:
+              - generic [ref=f2e382]: Built a multi-agent system using LangGraph.
+            - listitem [ref=f2e383]:
+              - generic [ref=f2e385]: Coordinated WhatsApp, search, and Discord agents.
+        - generic [ref=f2e389]:
+          - generic [ref=f2e390]: Aug 2025
+          - heading "Mobile & AI/ML" [level=3] [ref=f2e391]
+          - list [ref=f2e392]:
+            - listitem [ref=f2e393]:
+              - generic [ref=f2e395]: Built a mobile app for AI assistant control.
+            - listitem [ref=f2e396]:
+              - generic [ref=f2e398]: Created structured notes and experiments for ML.
+        - generic [ref=f2e402]:
+          - generic [ref=f2e403]: Sep 2025
+          - heading "Auth & business tools" [level=3] [ref=f2e404]
+          - list [ref=f2e405]:
+            - listitem [ref=f2e406]:
+              - generic [ref=f2e408]: Built an authentication microservice with tokens.
+            - listitem [ref=f2e409]:
+              - generic [ref=f2e411]: Shipped a lead management mobile app and desktop CRM.
+        - generic [ref=f2e415]:
+          - generic [ref=f2e416]: Nov 2025
+          - heading "Business applications" [level=3] [ref=f2e417]
+          - list [ref=f2e418]:
+            - listitem [ref=f2e419]:
+              - generic [ref=f2e421]: Built a full CRM with multi-window desktop app.
+            - listitem [ref=f2e422]:
+              - generic [ref=f2e424]: Created a peer-to-peer GPU desktop platform.
+        - generic [ref=f2e428]:
+          - generic [ref=f2e429]: Dec 2025
+          - heading "AI frameworks" [level=3] [ref=f2e430]
+          - list [ref=f2e431]:
+            - listitem [ref=f2e432]:
+              - generic [ref=f2e434]: Built a multi-model LLM gateway with LiteLLM.
+            - listitem [ref=f2e435]:
+              - generic [ref=f2e437]: Created reusable MCP servers for tool calling.
+        - generic [ref=f2e441]:
+          - generic [ref=f2e442]: Jan 2026
+          - heading "Observability" [level=3] [ref=f2e443]
+          - list [ref=f2e444]:
+            - listitem [ref=f2e445]:
+              - generic [ref=f2e447]: Built a monitoring pipeline with Prometheus and Grafana.
+            - listitem [ref=f2e448]:
+              - generic [ref=f2e450]: Added logging with Loki and Fluentd.
+        - generic [ref=f2e454]:
+          - generic [ref=f2e455]: May 2026
+          - heading "Workflow automation" [level=3] [ref=f2e456]
+          - list [ref=f2e457]:
+            - listitem [ref=f2e458]:
+              - generic [ref=f2e460]: Built n8n pipelines for Reddit content automation.
+            - listitem [ref=f2e461]:
+              - generic [ref=f2e463]: Used Airtable as a queue and state machine.
+        - generic [ref=f2e467]:
+          - generic [ref=f2e468]: Jun 2026
+          - heading "Conversational AI at scale" [level=3] [ref=f2e469]
+          - list [ref=f2e470]:
+            - listitem [ref=f2e471]:
+              - generic [ref=f2e473]: Built a conversational AI agent serving 360K+ users.
+            - listitem [ref=f2e474]:
+              - generic [ref=f2e476]: Ran LLM-as-judge evaluation on 30M+ conversations.
+        - generic [ref=f2e480]:
+          - generic [ref=f2e481]: Aug 2026
+          - heading "Live demos" [level=3] [ref=f2e482]
+          - list [ref=f2e483]:
+            - listitem [ref=f2e484]:
+              - generic [ref=f2e486]: Built a real-time voice agent you can talk to.
+            - listitem [ref=f2e487]:
+              - generic [ref=f2e489]: Created an interactive AI avatar and text clustering tool.
+    - generic [ref=f2e491]:
+      - generic [ref=f2e492]:
+        - generic [ref=f2e493]:
+          - generic [ref=f2e494]:
+            - generic [ref=f2e495]: §03
+            - generic [ref=f2e496]: / projects
+          - heading "Projects." [level=2] [ref=f2e497]
+        - paragraph [ref=f2e499]: Live demos you can try right now — voice, avatars, and natural language.
+      - generic [ref=f2e501]:
+        - article [ref=f2e502]:
+          - generic [ref=f2e503]: № 001/003
+          - heading "Voice Calling" [level=3] [ref=f2e505]
+          - paragraph [ref=f2e506]: Real-time voice agent demo with live conversational AI. Talk to an agent that listens, thinks, and responds in real time.
+          - generic [ref=f2e508]:
+            - link "Live demo" [ref=f2e509] [cursor=pointer]:
+              - /url: https://realtime-voice-agent-demo-frontend.vercel.app/
+            - link "Nicky9319/realtime-voice-agent-project" [ref=f2e521] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319/realtime-voice-agent-project
+          - paragraph [ref=f2e527]: WebRTC · Python · FastAPI · React · Socket.IO · LLM
+          - button "open spec" [ref=f2e528]
+        - article [ref=f2e534]:
+          - generic [ref=f2e535]: № 002/003
+          - heading "Avatar" [level=3] [ref=f2e537]
+          - paragraph [ref=f2e538]: Interactive AI avatar system that generates expressive, real-time character responses for conversational experiences.
+          - link "Nicky9319/Avatar_Project" [ref=f2e541] [cursor=pointer]:
+            - /url: https://github.com/Nicky9319/Avatar_Project
+          - paragraph [ref=f2e547]: Python · FastAPI · LLM · Three.js · React · Neon DB
+          - button "open spec" [ref=f2e548]
+        - article [ref=f2e554]:
+          - generic [ref=f2e555]: № 003/003
+          - heading "Natural Language Clustering" [level=3] [ref=f2e557]
+          - paragraph [ref=f2e558]: Turns unstructured text into meaningful groups using vector embeddings and clustering. Useful for feedback analysis, support tickets, and discovery.
+          - link "Nicky9319/natural_language_clustering" [ref=f2e561] [cursor=pointer]:
+            - /url: https://github.com/Nicky9319/natural_language_clustering
+          - paragraph [ref=f2e567]: Python · NLP · Vector Embeddings · Clustering · scikit-learn · OpenAI
+          - button "open spec" [ref=f2e568]
+    - generic [ref=f2e575]:
+      - generic [ref=f2e576]:
+        - generic [ref=f2e577]:
+          - generic [ref=f2e578]:
+            - generic [ref=f2e579]: §04
+            - generic [ref=f2e580]: / concept ideas
+          - heading "Sketches, prototypes, and what-ifs." [level=2] [ref=f2e581]
+        - paragraph [ref=f2e583]: Product concepts I would love to see live in the world — early landing pages, demo videos, and experiments worth building.
+      - generic [ref=f2e584]:
+        - link "01 Patchwork CI/CD for launch content — automatically generates videos and content pieces from new code pushes and feature releases. live page open link" [ref=f2e585] [cursor=pointer]:
+          - /url: https://patchwork-concept-landing-page.vercel.app/
+          - generic [ref=f2e586]:
+            - generic [ref=f2e587]:
+              - generic [ref=f2e588]: "01"
+              - heading "Patchwork" [level=3] [ref=f2e589]
+            - paragraph [ref=f2e590]: CI/CD for launch content — automatically generates videos and content pieces from new code pushes and feature releases.
+          - generic [ref=f2e591]:
+            - generic [ref=f2e592]: live page
+            - generic [ref=f2e593]: open link
+        - link "02 EloSphere Esports platform to organize tournaments, build teams, and connect players — a LinkedIn for esports players. demo video open link" [ref=f2e598] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=WSQTAFr-yV4
+          - generic [ref=f2e599]:
+            - generic [ref=f2e600]:
+              - generic [ref=f2e601]: "02"
+              - heading "EloSphere" [level=3] [ref=f2e602]
+            - paragraph [ref=f2e603]: Esports platform to organize tournaments, build teams, and connect players — a LinkedIn for esports players.
+          - generic [ref=f2e604]:
+            - generic [ref=f2e605]: demo video
+            - generic [ref=f2e606]: open link
+        - link "03 AgentBed A client-first agent runtime. Download and run AI agents locally via WSL and a desktop app, keeping your context private instead of sending it to third-party services. demo video open link" [ref=f2e611] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=SQrVaRM3XhY
+          - generic [ref=f2e612]:
+            - generic [ref=f2e613]:
+              - generic [ref=f2e614]: "03"
+              - heading "AgentBed" [level=3] [ref=f2e615]
+            - paragraph [ref=f2e616]: A client-first agent runtime. Download and run AI agents locally via WSL and a desktop app, keeping your context private instead of sending it to third-party services.
+          - generic [ref=f2e617]:
+            - generic [ref=f2e618]: demo video
+            - generic [ref=f2e619]: open link
+    - generic [ref=f2e625]:
+      - generic [ref=f2e626]:
+        - generic [ref=f2e627]:
+          - generic [ref=f2e628]:
+            - generic [ref=f2e629]: §05
+            - generic [ref=f2e630]: / skills
+          - heading "Skills and stack." [level=2] [ref=f2e631]
+        - paragraph [ref=f2e633]: The tools and technologies I have shipped production work with, grouped by domain.
+      - generic [ref=f2e634]:
+        - generic [ref=f2e635]:
+          - generic [ref=f2e636]: Languages
+          - paragraph [ref=f2e637]: Python · C / C++ · JavaScript (ES6+) · SQL · Bash
+        - generic [ref=f2e638]:
+          - generic [ref=f2e639]: AI / Machine Learning
+          - paragraph [ref=f2e640]: LLMs · LangChain · LangGraph · ChromaDB · Vector Embeddings · Clustering · Prompt Engineering
+        - generic [ref=f2e641]:
+          - generic [ref=f2e642]: Technologies
+          - paragraph [ref=f2e643]: FastAPI · Node.js · React · Redux · Electron · React Native · PostgreSQL · MongoDB · Redis · RabbitMQ · Nginx
+        - generic [ref=f2e644]:
+          - generic [ref=f2e645]: DevOps / Cloud
+          - paragraph [ref=f2e646]: Docker · Linux · Git · GitHub Actions · Azure · DigitalOcean · Cloudflare · OpenTelemetry · Grafana · Fluentd
+    - generic [ref=f2e648]:
+      - generic [ref=f2e649]:
+        - generic [ref=f2e650]:
+          - generic [ref=f2e651]:
+            - generic [ref=f2e652]: §06
+            - generic [ref=f2e653]: / experience
+          - heading "Where I've worked and what I shipped." [level=2] [ref=f2e654]
+        - paragraph [ref=f2e656]: Roles and internships from the resume, with the outcomes I was directly responsible for.
+      - generic [ref=f2e657]:
+        - article [ref=f2e658]:
+          - generic [ref=f2e659]:
+            - generic [ref=f2e660]:
+              - heading "Times Internet" [level=3] [ref=f2e661]
+              - paragraph [ref=f2e662]: AI Engineer Intern
+              - generic [ref=f2e663]:
+                - paragraph [ref=f2e664]: Jun 2026 – Present
+                - paragraph [ref=f2e665]: New Delhi, India
+            - list [ref=f2e667]:
+              - listitem [ref=f2e668]:
+                - generic [ref=f2e670]: Architected and deployed a Conversational AI Agent serving 360K+ users with 30,000 monthly active paying users
+              - listitem [ref=f2e671]:
+                - generic [ref=f2e673]: Developed an LLM-as-evaluator pipeline capable of processing and analyzing 30M+ user conversations
+              - listitem [ref=f2e674]:
+                - generic [ref=f2e676]: Transformed 40,000+ unstructured product feedback entries into actionable insights using clustering and vector embeddings
+        - article [ref=f2e677]:
+          - generic [ref=f2e678]:
+            - generic [ref=f2e679]:
+              - heading "Renderperk" [level=3] [ref=f2e680]
+              - paragraph [ref=f2e681]: Founder & Lead Systems Architect
+              - generic [ref=f2e682]:
+                - paragraph [ref=f2e683]: Oct 2025 – Jun 2026
+                - paragraph [ref=f2e684]: New Delhi, India
+                - link "renderperk.studio" [ref=f2e685] [cursor=pointer]:
+                  - /url: https://renderperk.studio
+            - list [ref=f2e687]:
+              - listitem [ref=f2e688]:
+                - generic [ref=f2e690]: Architected and scaled a distributed GPU render farm, reaching post-revenue in 4 months and cutting rendering costs by 75%
+              - listitem [ref=f2e691]:
+                - generic [ref=f2e693]: Developed 290+ APIs and 20+ data flows running asynchronously across 11 microservices and 3 production VMs
+              - listitem [ref=f2e694]:
+                - generic [ref=f2e696]: Orchestrated 20+ parallel GPU workloads, managing 30GB+ data distributed globally with sub-5 minute synchronization
+              - listitem [ref=f2e697]:
+                - generic [ref=f2e699]: Deployed OpenTelemetry for distributed tracing and integrated Fluentd + Grafana for centralized logging and monitoring
+              - listitem [ref=f2e700]:
+                - generic [ref=f2e702]: Built CI/CD pipelines for autonomous server deployments and cross-platform desktop application release builds
+        - article [ref=f2e703]:
+          - generic [ref=f2e704]:
+            - generic [ref=f2e705]:
+              - heading "Nathdwara Advisors LLP" [level=3] [ref=f2e706]
+              - paragraph [ref=f2e707]: Software Developer Intern
+              - generic [ref=f2e708]:
+                - paragraph [ref=f2e709]: May 2025 – June 2025
+                - paragraph [ref=f2e710]: New Delhi, India
+                - link "neocfo.io" [ref=f2e711] [cursor=pointer]:
+                  - /url: https://neocfo.io
+            - list [ref=f2e713]:
+              - listitem [ref=f2e714]:
+                - generic [ref=f2e716]: Built and deployed an AI-powered LinkedIn agent using Python, Playwright and n8n, reducing lead generation effort by 80%
+              - listitem [ref=f2e717]:
+                - generic [ref=f2e719]: Implemented a LangChain-powered AI agent for automated Excel parsing and financial forecasting analysis
+              - listitem [ref=f2e720]:
+                - generic [ref=f2e722]: Developed interactive dashboards for metric analysis, optimized for sub-second load times through efficient caching strategies
+  - contentinfo [ref=f2e723]:
+    - generic [ref=f2e724]:
+      - generic [ref=f2e725]:
+        - generic [ref=f2e726]:
+          - paragraph [ref=f2e727]: colophon
+          - paragraph [ref=f2e728]: Designed and built in the open, line by line.
+        - generic [ref=f2e729]:
+          - paragraph [ref=f2e730]: channels
+          - generic [ref=f2e731]:
+            - link "github / Nicky9319" [ref=f2e732] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+            - link "linkedin / paarth-saxena-632547274" [ref=f2e737] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+            - link "paarthsaxena2005@gmail.com" [ref=f2e743] [cursor=pointer]:
+              - /url: mailto:paarthsaxena2005@gmail.com
+        - generic [ref=f2e748]:
+          - paragraph [ref=f2e749]: build
+          - paragraph [ref=f2e750]: v.0.2.0 / Sep 2026
+          - paragraph [ref=f2e751]: react · vite · tailwind
+      - generic [ref=f2e752]:
+        - paragraph [ref=f2e753]: © Paarth / 9319 — all work referenced is open source
+        - paragraph [ref=f2e754]: ● online / always shipping

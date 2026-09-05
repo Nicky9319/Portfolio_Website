@@ -1,0 +1,19 @@
+need to make it light theme  (simple white and black)
+What did I do section simple timeline of what I build as a function of time 
+
+Include photo in the hero section (For Now Use any Random Photo ) - add in an assets folder will replace that
+
+
+Projects (only live link ones) - can do this later
+- Voice Calling 
+- Avatar one (Need to host and use Neon DB for sql one)
+- Natural Language clustering
+
+Skills I have see from the resume present, if need parse the resume see the resume.pdf
+
+Concept Ideas 
+this will include Interesting concepts not projects, may include landing pages and some prototyping 
+
+
+Experience, read from the resume 
+
