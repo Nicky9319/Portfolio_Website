@@ -5,23 +5,13 @@ export function ProjectShowcase({ projects }) {
   const liveProjects = projects.filter(p => p.category === 'live-demos')
 
   return (
-    <section id="projects" className="relative border-b border-[var(--border)]">
+    <section id="projects" className="relative">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28">
         {/* Section header */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
-          <div className="lg:col-span-7">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="eyebrow text-[var(--muted)]">/ projects</span>
-            </div>
-            <h2 className="display-2 text-[var(--paper)] max-w-2xl">
-              Projects<span className="text-[var(--muted)]">.</span>
-            </h2>
-          </div>
-          <div className="lg:col-span-5 flex lg:items-end">
-            <p className="body-lg text-[var(--muted)] max-w-md">
-              Live demos you can try right now — voice, avatars, and natural language.
-            </p>
-          </div>
+        <div className="mb-16 md:mb-20">
+          <h2 className="display-2 text-[var(--paper)]">
+            Check It Out<span className="text-[var(--muted)]">.</span>
+          </h2>
         </div>
 
         <motion.div

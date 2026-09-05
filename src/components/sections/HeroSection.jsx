@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { GithubIcon } from '../ui/BrandIcons'
-import photo from '../../assets/photo.jpg'
+import photo from '../../assets/profile.jpg'
 import skillsRaw from '../../data/skills.txt?raw'
 
 function Marquee() {
@@ -23,9 +23,9 @@ function Marquee() {
 
 export function HeroSection() {
   return (
-    <section id="top" className="relative overflow-hidden border-b border-[var(--border)]">
+    <section id="top" className="relative overflow-hidden">
       <div className="relative max-w-[1400px] mx-auto px-6 md:px-10 pt-12 md:pt-20 pb-16 md:pb-24">
-        <div className="grid grid-cols-[120px_1fr] sm:grid-cols-[160px_1fr] lg:grid-cols-12 gap-6 lg:gap-12 items-center">
+        <div className="grid grid-cols-[70px_1fr] sm:grid-cols-[90px_1fr] lg:grid-cols-12 gap-3 lg:gap-8 items-center">
           {/* Left — display title */}
           <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
@@ -91,11 +91,11 @@ export function HeroSection() {
             transition={{ duration: 0.7, delay: 0.5 }}
           >
             {/* Photo */}
-            <div className="mb-3 lg:mb-8 overflow-hidden rounded-xl lg:rounded-2xl bg-[var(--surface)]">
+            <div className="overflow-hidden rounded-xl lg:rounded-2xl bg-[var(--surface)]">
               <img
                 src={photo}
                 alt="Paarth Saxena — portrait placeholder"
-                className="w-full h-auto object-cover aspect-[4/5]"
+                className="w-full h-auto object-contain"
               />
             </div>
           </motion.aside>
