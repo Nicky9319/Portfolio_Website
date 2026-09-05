@@ -1,0 +1,14 @@
+Python
+Docker
+Langchain
+Terraform
+Google Cloud
+Azure
+React
+GitHub Actions
+Mongo DB
+Postgres
+FastAPI
+LangGraph
+Electron
+React Native

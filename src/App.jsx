@@ -9,7 +9,6 @@ import { HeroSection } from './components/sections/HeroSection'
 import { TimelineSection } from './components/sections/TimelineSection'
 import { ProjectShowcase } from './components/sections/ProjectShowcase'
 import { ConceptIdeas } from './components/sections/ConceptIdeas'
-import { SkillsMatrix } from './components/sections/SkillsMatrix'
 import { ExperienceSection } from './components/sections/ExperienceSection'
 import { AboutSection } from './components/sections/AboutSection'
 import { projects } from './data/projects'
@@ -32,7 +31,6 @@ function ThemedApp() {
         <TimelineSection />
         <ProjectShowcase projects={projects} />
         <ConceptIdeas />
-        <SkillsMatrix />
         <ExperienceSection />
         <AboutSection />
       </main>

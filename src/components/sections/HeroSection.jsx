@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, ArrowDown } from 'lucide-react'
 import { GithubIcon } from '../ui/BrandIcons'
 import photo from '../../assets/photo.jpg'
+import skillsRaw from '../../data/skills.txt?raw'
 
 const statusBlock = [
   { label: 'role', value: 'AI Engineer' },
@@ -11,11 +12,7 @@ const statusBlock = [
 ]
 
 function Marquee() {
-  const tags = [
-    'Python', 'FastAPI', 'LangGraph', 'LangChain', 'Electron', 'React',
-    'React Native', 'MongoDB', 'PostgreSQL', 'Redis', 'Docker', 'MQTT',
-    'TypeScript', 'Tailwind', 'Socket.IO', 'LiteLLM', 'Playwright', 'ChromaDB'
-  ]
+  const tags = skillsRaw.trim().split('\n').map(s => s.trim()).filter(Boolean)
 
   return (
     <div className="marquee-mask border-y border-[var(--border)] py-3 overflow-hidden">
