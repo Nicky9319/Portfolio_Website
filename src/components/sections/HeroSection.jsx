@@ -1,15 +1,8 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, ArrowDown } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { GithubIcon } from '../ui/BrandIcons'
 import photo from '../../assets/photo.jpg'
 import skillsRaw from '../../data/skills.txt?raw'
-
-const statusBlock = [
-  { label: 'role', value: 'AI Engineer' },
-  { label: 'focus', value: 'Multi-agent systems' },
-  { label: 'based in', value: 'India · Remote' },
-  { label: 'shipping since', value: 'Oct 2024' },
-]
 
 function Marquee() {
   const tags = skillsRaw.trim().split('\n').map(s => s.trim()).filter(Boolean)
@@ -32,21 +25,9 @@ export function HeroSection() {
   return (
     <section id="top" className="relative overflow-hidden border-b border-[var(--border)]">
       <div className="relative max-w-[1400px] mx-auto px-6 md:px-10 pt-12 md:pt-20 pb-16 md:pb-24">
-        {/* Section header hairline */}
-        <div className="flex items-center justify-between mb-12 md:mb-16 reveal">
-          <div className="flex items-center gap-3">
-            <span className="section-num text-[var(--primary)]">§01</span>
-            <span className="eyebrow text-[var(--muted)]">/ identity</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <span className="label text-[var(--muted)] hidden sm:inline">portfolio · v0.2</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)] pulse-dot" />
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="grid grid-cols-[120px_1fr] sm:grid-cols-[160px_1fr] lg:grid-cols-12 gap-6 lg:gap-12 items-center">
           {/* Left — display title */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
               className="label text-[var(--muted)] mb-6"
               initial={{ opacity: 0, y: 10 }}
@@ -57,7 +38,7 @@ export function HeroSection() {
             </motion.p>
 
             <motion.h1
-              className="display-1 text-[var(--paper)]"
+              className="display-2 text-[var(--paper)]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
@@ -72,7 +53,7 @@ export function HeroSection() {
             </motion.h1>
 
             <motion.p
-              className="body-lg text-[var(--muted)] max-w-xl mt-8"
+              className="body text-[var(--muted)] max-w-xl mt-4 lg:mt-8"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
@@ -81,7 +62,7 @@ export function HeroSection() {
             </motion.p>
 
             <motion.div
-              className="flex flex-wrap items-center gap-3 mt-10"
+              className="flex flex-wrap items-center gap-3 mt-6 lg:mt-10"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
@@ -104,46 +85,18 @@ export function HeroSection() {
 
           {/* Right — photo + status panel */}
           <motion.aside
-            className="lg:col-span-5"
+            className="lg:col-span-5 order-1 lg:order-2"
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.5 }}
           >
             {/* Photo */}
-            <div className="mb-8 overflow-hidden rounded-2xl bg-[var(--surface)]">
+            <div className="mb-3 lg:mb-8 overflow-hidden rounded-xl lg:rounded-2xl bg-[var(--surface)]">
               <img
                 src={photo}
                 alt="Paarth Saxena — portrait placeholder"
                 className="w-full h-auto object-cover aspect-[4/5]"
               />
-            </div>
-
-            <div className="border border-[var(--border)] rounded-2xl bg-[var(--surface)] overflow-hidden">
-              {/* Panel header */}
-              <div className="flex items-center justify-between px-5 py-3 border-b border-[var(--border)]">
-                <span className="eyebrow text-[var(--muted)]">vitals</span>
-                <span className="label text-[var(--dim)]">read-only</span>
-              </div>
-
-              {/* Status rows */}
-              <dl className="divide-y divide-[var(--border)]">
-                {statusBlock.map((row) => (
-                  <div
-                    key={row.label}
-                    className="grid grid-cols-[100px_1fr] gap-3 px-5 py-3 items-baseline"
-                  >
-                    <dt className="label text-[var(--dim)]">{row.label}</dt>
-                    <dd className="font-mono text-sm text-[var(--foreground)]">{row.value}</dd>
-                  </div>
-                ))}
-                <div className="grid grid-cols-[100px_1fr] gap-3 px-5 py-3 items-baseline">
-                  <dt className="label text-[var(--dim)]">status</dt>
-                  <dd className="font-mono text-sm flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)] pulse-dot" />
-                    <span>building · open to work</span>
-                  </dd>
-                </div>
-              </dl>
             </div>
           </motion.aside>
         </div>
@@ -158,22 +111,6 @@ export function HeroSection() {
           <Marquee />
         </motion.div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          className="flex items-center justify-between mt-10"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
-        >
-          <span className="label text-[var(--muted)]">scroll to begin ↓</span>
-          <a
-            href="#projects"
-            className="group flex items-center gap-2 label text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
-          >
-            <span>jump to projects</span>
-            <ArrowDown className="w-3.5 h-3.5 group-hover:translate-y-0.5 transition-transform" />
-          </a>
-        </motion.div>
       </div>
     </section>
   )

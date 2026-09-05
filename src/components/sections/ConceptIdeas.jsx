@@ -35,7 +35,6 @@ export function ConceptIdeas() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="section-num text-[var(--primary)]">§04</span>
               <span className="eyebrow text-[var(--muted)]">/ concepts</span>
             </div>
             <h2 className="display-2 text-[var(--paper)] max-w-2xl">

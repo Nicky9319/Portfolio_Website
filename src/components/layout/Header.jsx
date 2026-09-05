@@ -2,11 +2,11 @@ import { ThemeToggle } from '../ui/ThemeToggle'
 import { GithubIcon } from '../ui/BrandIcons'
 
 const navItems = [
-  { label: 'Projects', href: '#projects', num: '02' },
-  { label: 'Experience', href: '#experience', num: '03' },
-  { label: 'Concepts', href: '#concepts', num: '04' },
-  { label: 'Timeline', href: '#timeline', num: '05' },
-  { label: 'About', href: '#about', num: '06' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Concepts', href: '#concepts' },
+  { label: 'Timeline', href: '#timeline' },
+  { label: 'About', href: '#about' },
 ]
 
 export function Header() {
@@ -32,11 +32,8 @@ export function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="group flex items-baseline gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+                className="text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
               >
-                <span className="label text-[var(--dim)] group-hover:text-[var(--primary)] transition-colors">
-                  {item.num}
-                </span>
                 <span>{item.label}</span>
               </a>
             ))}
