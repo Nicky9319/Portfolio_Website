@@ -9,7 +9,7 @@ export function Footer() {
           <a
             href="mailto:paarthsaxena2005@gmail.com"
             aria-label="Email"
-            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
           >
             <Mail size={16} />
             <span className="hidden md:inline">Email</span>
@@ -19,7 +19,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
           >
             <GithubIcon size={16} />
             <span className="hidden md:inline">GitHub</span>
@@ -29,7 +29,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
           >
             <LinkedinIcon size={16} />
             <span className="hidden md:inline">LinkedIn</span>
@@ -39,7 +39,7 @@ export function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LeetCode"
-            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
           >
             <LeetcodeIcon size={16} />
             <span className="hidden md:inline">LeetCode</span>

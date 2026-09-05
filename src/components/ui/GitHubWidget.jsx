@@ -36,7 +36,7 @@ export function GitHubWidget({ githubUrl, liveUrl }) {
         href={githubUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="pill hover:border-[var(--foreground)]"
+        className="pill hover:border-[var(--foreground)] no-underline"
       >
         <GithubIcon size={14} />
         <span className="font-medium">{displayName}</span>

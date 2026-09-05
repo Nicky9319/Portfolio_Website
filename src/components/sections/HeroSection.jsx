@@ -75,7 +75,7 @@ export function HeroSection() {
                 href="https://github.com/Nicky9319"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-ghost"
+                className="btn-ghost no-underline"
               >
                 <GithubIcon size={16} />
                 <span>github / Nicky9319</span>
