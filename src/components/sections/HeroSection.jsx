@@ -30,18 +30,18 @@ export function HeroSection() {
           <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
               className="label text-[var(--muted)] mb-6"
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.15, delay: 0.05 }}
             >
               hello, I'm —
             </motion.p>
 
             <motion.h1
               className="display-2 text-[var(--paper)]"
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 0.2, delay: 0.1 }}
             >
               Paarth<span className="text-[var(--muted)]">.</span>
               <br />
@@ -54,18 +54,18 @@ export function HeroSection() {
 
             <motion.p
               className="body text-[var(--muted)] max-w-xl mt-4 lg:mt-8"
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
+              transition={{ duration: 0.15, delay: 0.2 }}
             >
               From first scripts to multi-agent AI orchestrations — building production AI infrastructure, microservices, and platforms.
             </motion.p>
 
             <motion.div
               className="flex flex-wrap items-center gap-3 mt-6 lg:mt-10"
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 5 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
+              transition={{ duration: 0.15, delay: 0.3 }}
             >
               <a href="#projects" className="btn-primary">
                 <span>View projects</span>
@@ -86,9 +86,9 @@ export function HeroSection() {
           {/* Right — photo + status panel */}
           <motion.aside
             className="lg:col-span-5 order-1 lg:order-2"
-            initial={{ opacity: 0, x: 20 }}
+            initial={{ opacity: 0, x: 10 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.5 }}
+            transition={{ duration: 0.2, delay: 0.15 }}
           >
             {/* Photo */}
             <div className="overflow-hidden rounded-xl lg:rounded-2xl bg-[var(--surface)]">
@@ -106,7 +106,7 @@ export function HeroSection() {
           className="mt-16 md:mt-24 -mx-6 md:-mx-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1 }}
+          transition={{ duration: 0.3, delay: 0.4 }}
         >
           <Marquee />
         </motion.div>

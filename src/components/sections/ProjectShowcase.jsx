@@ -21,15 +21,19 @@ export function ProjectShowcase({ projects }) {
           transition={{ duration: 0.6 }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-5">
-            {liveProjects.map((project, index) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                index={index}
-                total={liveProjects.length}
-                serialTop={project.id !== 'avatar'}
-              />
-            ))}
+            {liveProjects.map((project, index) => {
+              const originalIndex = projects.findIndex(p => p.id === project.id)
+              const serialNum = String(originalIndex + 1).padStart(3, '0')
+              return (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  serialNum={serialNum}
+                  total={String(projects.length).padStart(3, '0')}
+                  serialTop={project.id !== 'avatar'}
+                />
+              )
+            })}
           </div>
         </motion.div>
       </div>

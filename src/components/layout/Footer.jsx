@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, LeetcodeIcon } from '../ui/BrandIcons'
+import { GithubIcon, LinkedinIcon, LeetcodeIcon, XIcon } from '../ui/BrandIcons'
 import { Mail } from 'lucide-react'
 
 export function Footer() {
@@ -43,6 +43,16 @@ export function Footer() {
           >
             <LeetcodeIcon size={16} />
             <span className="hidden md:inline">LeetCode</span>
+          </a>
+          <a
+            href="https://x.com/SaxenaPaarth_19"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+            className="flex items-center gap-2 text-sm text-[var(--muted)] hover:text-[var(--foreground)] transition-colors no-underline"
+          >
+            <XIcon size={16} />
+            <span className="hidden md:inline">X</span>
           </a>
         </div>
       </div>

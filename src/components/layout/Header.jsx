@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, LeetcodeIcon } from '../ui/BrandIcons'
+import { GithubIcon, LinkedinIcon, LeetcodeIcon, XIcon } from '../ui/BrandIcons'
 import { Mail } from 'lucide-react'
 
 const navItems = [
@@ -64,6 +64,15 @@ export function Header() {
               className="p-2 border border-[var(--border-2)] hover:border-[var(--foreground)] hover:bg-[var(--surface)] transition-colors"
             >
               <LeetcodeIcon size={16} />
+            </a>
+            <a
+              href="https://x.com/SaxenaPaarth_19"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+              className="p-2 border border-[var(--border-2)] hover:border-[var(--foreground)] hover:bg-[var(--surface)] transition-colors"
+            >
+              <XIcon size={16} />
             </a>
           </div>
         </div>

@@ -3,9 +3,8 @@ import { ChevronDown, ExternalLink, Radio } from 'lucide-react'
 import { GitHubWidget } from '../ui/GitHubWidget'
 import { useState } from 'react'
 
-export function ProjectCard({ project, index, total, serialTop = true }) {
+export function ProjectCard({ project, serialNum, total, serialTop = true }) {
   const [isExpanded, setIsExpanded] = useState(false)
-  const serial = String(index + 1).padStart(3, '0')
 
   return (
     <motion.article
@@ -13,14 +12,14 @@ export function ProjectCard({ project, index, total, serialTop = true }) {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
-      transition={{ duration: 0.5, delay: (index % 6) * 0.05 }}
+      transition={{ duration: 0.5 }}
       className="group py-6 border-t border-[var(--border)] first:border-t-0"
     >
       {/* Top meta — shown when serialTop is true */}
       {serialTop && (
         <div className="flex items-center justify-between mb-4">
           <span className="font-mono text-xs text-[var(--dim)] tabular">
-            № {serial}/{String(total).padStart(3, '0')}
+            № {serialNum}/{total}
           </span>
         </div>
       )}
@@ -48,7 +47,7 @@ export function ProjectCard({ project, index, total, serialTop = true }) {
       {!serialTop && (
         <div className="flex items-center justify-between mb-4">
           <span className="font-mono text-xs text-[var(--dim)] tabular">
-            № {serial}/{String(total).padStart(3, '0')}
+            № {serialNum}/{total}
           </span>
         </div>
       )}

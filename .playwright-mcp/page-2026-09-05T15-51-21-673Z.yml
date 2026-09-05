@@ -1,0 +1,229 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - navigation [ref=f2e7]:
+        - link "Projects" [ref=f2e8] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Experience" [ref=f2e9] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Concepts" [ref=f2e10] [cursor=pointer]:
+          - /url: "#concepts"
+        - link "Timeline" [ref=f2e11] [cursor=pointer]:
+          - /url: "#timeline"
+      - generic [ref=f2e12]:
+        - link "GitHub" [ref=f2e13] [cursor=pointer]:
+          - /url: https://github.com/Nicky9319
+        - link "LinkedIn" [ref=f2e17] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+        - link "Email" [ref=f2e22] [cursor=pointer]:
+          - /url: mailto:paarthsaxena2005@gmail.com
+        - link "LeetCode" [ref=f2e26] [cursor=pointer]:
+          - /url: https://leetcode.com/u/paarth_saxena/
+  - main [ref=f2e29]:
+    - generic [ref=f2e31]:
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - paragraph [ref=f2e34]: hello, I'm —
+          - heading "Paarth. building systems that think." [level=1] [ref=f2e35]: Paarth.building systemsthat think.
+          - paragraph [ref=f2e36]: From first scripts to multi-agent AI orchestrations — building production AI infrastructure, microservices, and platforms.
+          - generic [ref=f2e37]:
+            - link "View projects" [ref=f2e38] [cursor=pointer]:
+              - /url: "#projects"
+            - link "github / Nicky9319" [ref=f2e42] [cursor=pointer]:
+              - /url: https://github.com/Nicky9319
+        - complementary [ref=f2e47]:
+          - img "Paarth Saxena — portrait placeholder" [ref=f2e49]
+      - generic [ref=f2e52]:
+        - generic [ref=f2e53]:
+          - generic [ref=f2e54]: Python
+          - generic [ref=f2e55]: ·
+        - generic [ref=f2e56]:
+          - generic [ref=f2e57]: Docker
+          - generic [ref=f2e58]: ·
+        - generic [ref=f2e59]:
+          - generic [ref=f2e60]: Langchain
+          - generic [ref=f2e61]: ·
+        - generic [ref=f2e62]:
+          - generic [ref=f2e63]: Terraform
+          - generic [ref=f2e64]: ·
+        - generic [ref=f2e65]:
+          - generic [ref=f2e66]: Google Cloud
+          - generic [ref=f2e67]: ·
+        - generic [ref=f2e68]:
+          - generic [ref=f2e69]: Azure
+          - generic [ref=f2e70]: ·
+        - generic [ref=f2e71]:
+          - generic [ref=f2e72]: React
+          - generic [ref=f2e73]: ·
+        - generic [ref=f2e74]:
+          - generic [ref=f2e75]: GitHub Actions
+          - generic [ref=f2e76]: ·
+        - generic [ref=f2e77]:
+          - generic [ref=f2e78]: Mongo DB
+          - generic [ref=f2e79]: ·
+        - generic [ref=f2e80]:
+          - generic [ref=f2e81]: Postgres
+          - generic [ref=f2e82]: ·
+        - generic [ref=f2e83]:
+          - generic [ref=f2e84]: FastAPI
+          - generic [ref=f2e85]: ·
+        - generic [ref=f2e86]:
+          - generic [ref=f2e87]: LangGraph
+          - generic [ref=f2e88]: ·
+        - generic [ref=f2e89]:
+          - generic [ref=f2e90]: Electron
+          - generic [ref=f2e91]: ·
+        - generic [ref=f2e92]:
+          - generic [ref=f2e93]: React Native
+          - generic [ref=f2e94]: ·
+        - generic [ref=f2e95]:
+          - generic [ref=f2e96]: Python
+          - generic [ref=f2e97]: ·
+        - generic [ref=f2e98]:
+          - generic [ref=f2e99]: Docker
+          - generic [ref=f2e100]: ·
+        - generic [ref=f2e101]:
+          - generic [ref=f2e102]: Langchain
+          - generic [ref=f2e103]: ·
+        - generic [ref=f2e104]:
+          - generic [ref=f2e105]: Terraform
+          - generic [ref=f2e106]: ·
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108]: Google Cloud
+          - generic [ref=f2e109]: ·
+        - generic [ref=f2e110]:
+          - generic [ref=f2e111]: Azure
+          - generic [ref=f2e112]: ·
+        - generic [ref=f2e113]:
+          - generic [ref=f2e114]: React
+          - generic [ref=f2e115]: ·
+        - generic [ref=f2e116]:
+          - generic [ref=f2e117]: GitHub Actions
+          - generic [ref=f2e118]: ·
+        - generic [ref=f2e119]:
+          - generic [ref=f2e120]: Mongo DB
+          - generic [ref=f2e121]: ·
+        - generic [ref=f2e122]:
+          - generic [ref=f2e123]: Postgres
+          - generic [ref=f2e124]: ·
+        - generic [ref=f2e125]:
+          - generic [ref=f2e126]: FastAPI
+          - generic [ref=f2e127]: ·
+        - generic [ref=f2e128]:
+          - generic [ref=f2e129]: LangGraph
+          - generic [ref=f2e130]: ·
+        - generic [ref=f2e131]:
+          - generic [ref=f2e132]: Electron
+          - generic [ref=f2e133]: ·
+        - generic [ref=f2e134]:
+          - generic [ref=f2e135]: React Native
+          - generic [ref=f2e136]: ·
+    - generic [ref=f2e138]:
+      - heading "Check It Out." [level=2] [ref=f2e140]
+      - generic [ref=f2e142]:
+        - article [ref=f2e143]:
+          - generic [ref=f2e144]: № 001/017
+          - generic [ref=f2e146]:
+            - heading "Voice Calling" [level=3] [ref=f2e147]
+            - link "live demo" [ref=f2e148] [cursor=pointer]:
+              - /url: https://realtime-voice-agent-demo-frontend.vercel.app/
+          - paragraph [ref=f2e160]: Real-time voice agent demo with live conversational AI. Talk to an agent that listens, thinks, and responds in real time.
+          - link "Nicky9319/realtime-voice-agent-project" [ref=f2e163] [cursor=pointer]:
+            - /url: https://github.com/Nicky9319/realtime-voice-agent-project
+          - button "open spec" [ref=f2e168]
+        - article [ref=f2e174]:
+          - heading "Avatar" [level=3] [ref=f2e176]
+          - generic [ref=f2e177]: № 002/017
+          - paragraph [ref=f2e179]: Interactive AI avatar system that generates expressive, real-time character responses for conversational experiences.
+          - link "Nicky9319/Avatar_Project" [ref=f2e182] [cursor=pointer]:
+            - /url: https://github.com/Nicky9319/Avatar_Project
+          - button "open spec" [ref=f2e187]
+        - article [ref=f2e193]:
+          - generic [ref=f2e194]: № 003/017
+          - heading "Natural Language Clustering" [level=3] [ref=f2e197]
+          - paragraph [ref=f2e198]: Turns unstructured text into meaningful groups using vector embeddings and clustering. Useful for feedback analysis, support tickets, and discovery.
+          - link "Nicky9319/natural_language_clustering" [ref=f2e201] [cursor=pointer]:
+            - /url: https://github.com/Nicky9319/natural_language_clustering
+          - button "open spec" [ref=f2e206]
+    - generic [ref=f2e213]:
+      - generic [ref=f2e214]:
+        - text: Experience
+        - heading "Where I've worked and what I shipped." [level=2] [ref=f2e215]
+      - generic [ref=f2e216]:
+        - article [ref=f2e217]:
+          - generic [ref=f2e218]:
+            - generic [ref=f2e219]:
+              - img "Times Internet logo" [ref=f2e221]
+              - generic [ref=f2e222]:
+                - heading "AI Engineer Intern, Times Internet" [level=3] [ref=f2e224]
+                - button "Show more" [ref=f2e226]
+            - paragraph [ref=f2e231]: Jun 2026 – Present
+        - article [ref=f2e232]:
+          - generic [ref=f2e233]:
+            - generic [ref=f2e234]:
+              - img "Renderperk logo" [ref=f2e236]
+              - generic [ref=f2e237]:
+                - generic [ref=f2e238]:
+                  - heading "Founder & CTO, Renderperk" [level=3] [ref=f2e239]
+                  - link "renderperk.studio" [ref=f2e240] [cursor=pointer]:
+                    - /url: https://renderperk.studio/?utm_source=paarth.site&utm_campaign=paarth&utm_medium=paarth-personal-website
+                - button "Show more" [ref=f2e247]
+            - paragraph [ref=f2e252]: Oct 2025 – Jun 2026
+        - article [ref=f2e253]:
+          - generic [ref=f2e254]:
+            - generic [ref=f2e255]:
+              - img "Nathdwara Advisors LLP logo" [ref=f2e257]
+              - generic [ref=f2e258]:
+                - generic [ref=f2e259]:
+                  - heading "Software Developer Intern, Nathdwara Advisors LLP" [level=3] [ref=f2e260]
+                  - link "neocfo.io" [ref=f2e261] [cursor=pointer]:
+                    - /url: https://neocfo.io
+                - button "Show more" [ref=f2e268]
+            - paragraph [ref=f2e273]: May 2025 – June 2025
+    - generic [ref=f2e275]:
+      - generic [ref=f2e276]:
+        - generic [ref=f2e277]:
+          - generic [ref=f2e278]: Concepts
+          - heading "Sketches, prototypes, and what-ifs." [level=2] [ref=f2e280]
+        - paragraph [ref=f2e282]: Not every idea becomes a shipped product. This section shows early landing pages, demo videos, and experiments worth revisiting.
+      - generic [ref=f2e283]:
+        - generic [ref=f2e284]:
+          - generic [ref=f2e285]:
+            - generic [ref=f2e286]:
+              - generic [ref=f2e287]: "01"
+              - heading "Patchwork" [level=3] [ref=f2e288]
+            - paragraph [ref=f2e289]: CI/CD for launch content — automatically generates videos and content pieces from new code pushes and feature releases.
+          - generic [ref=f2e290]:
+            - generic [ref=f2e291]: live page
+            - link "open link" [ref=f2e292] [cursor=pointer]:
+              - /url: https://patchwork-concept-landing-page.vercel.app/
+        - generic [ref=f2e297]:
+          - generic [ref=f2e298]:
+            - generic [ref=f2e299]:
+              - generic [ref=f2e300]: "02"
+              - heading "EloSphere" [level=3] [ref=f2e301]
+            - paragraph [ref=f2e302]: Esports platform to organize tournaments, build teams, and connect players — a LinkedIn for esports players.
+          - generic [ref=f2e303]:
+            - generic [ref=f2e304]: demo video
+            - link "open link" [ref=f2e305] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=WSQTAFr-yV4
+        - generic [ref=f2e310]:
+          - generic [ref=f2e311]:
+            - generic [ref=f2e312]:
+              - generic [ref=f2e313]: "03"
+              - heading "AgentBed" [level=3] [ref=f2e314]
+            - paragraph [ref=f2e315]: A client-first agent runtime. Download and run AI agents locally via WSL and a desktop app, keeping your context private instead of sending it to third-party services.
+          - generic [ref=f2e316]:
+            - generic [ref=f2e317]: demo video
+            - link "open link" [ref=f2e318] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=SQrVaRM3XhY
+  - contentinfo [ref=f2e323]:
+    - generic [ref=f2e325]:
+      - link "Email" [ref=f2e326] [cursor=pointer]:
+        - /url: mailto:paarthsaxena2005@gmail.com
+      - link "GitHub" [ref=f2e331] [cursor=pointer]:
+        - /url: https://github.com/Nicky9319
+      - link "LinkedIn" [ref=f2e336] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/paarth-saxena-632547274/
+      - link "LeetCode" [ref=f2e342] [cursor=pointer]:
+        - /url: https://leetcode.com/u/paarth_saxena/
