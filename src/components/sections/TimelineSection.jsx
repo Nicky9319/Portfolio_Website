@@ -131,8 +131,8 @@ export function TimelineSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-10 md:mb-14">
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="section-num text-[var(--primary)]">§02</span>
-              <span className="eyebrow text-[var(--muted)]">/ what did I do</span>
+              <span className="section-num text-[var(--primary)]">§05</span>
+              <span className="eyebrow text-[var(--muted)]">/ timeline</span>
             </div>
             <h2 className="display-2 text-[var(--paper)] max-w-2xl">
               A timeline of <span className="italic">builds.</span>

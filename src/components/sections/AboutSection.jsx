@@ -20,7 +20,7 @@ export function AboutSection() {
           {/* Left — large display + statement */}
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-8">
-              <span className="section-num text-[var(--primary)]">§07</span>
+              <span className="section-num text-[var(--primary)]">§06</span>
               <span className="eyebrow text-[var(--muted)]">/ about</span>
             </div>
 

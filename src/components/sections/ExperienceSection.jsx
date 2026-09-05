@@ -9,18 +9,14 @@ export function ExperienceSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16 md:mb-20">
           <div className="lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="section-num text-[var(--primary)]">§06</span>
+              <span className="section-num text-[var(--primary)]">§03</span>
               <span className="eyebrow text-[var(--muted)]">/ experience</span>
             </div>
             <h2 className="display-2 text-[var(--paper)] max-w-2xl">
               Where I've <span className="italic">worked</span> and what I shipped.
             </h2>
           </div>
-          <div className="lg:col-span-5 flex lg:items-end">
-            <p className="body-lg text-[var(--muted)] max-w-md">
-              Roles and internships from the resume, with the outcomes I was directly responsible for.
-            </p>
-          </div>
+          <div className="lg:col-span-5 flex lg:items-end" />
         </div>
 
         {/* Experience list */}

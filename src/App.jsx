@@ -28,10 +28,10 @@ function ThemedApp() {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <TimelineSection />
         <ProjectShowcase projects={projects} />
-        <ConceptIdeas />
         <ExperienceSection />
+        <ConceptIdeas />
+        <TimelineSection />
         <AboutSection />
       </main>
       <Footer />
