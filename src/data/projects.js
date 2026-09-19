@@ -818,6 +818,7 @@ export const experience = [
   {
     role: 'AI Engineer Intern',
     company: 'Times Internet',
+    link: 'ailabs.timesinternet.in',
     location: 'New Delhi, India',
     period: 'Jun 2026 – Present',
     description: 'Building and deploying production AI systems at scale, working across the full stack of conversational AI — from LLM pipelines to distributed backend services serving hundreds of thousands of users.',
